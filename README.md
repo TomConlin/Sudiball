@@ -3,7 +3,7 @@ Sudiball
 
 06/08/2013
 
-sSkeletal gimbal telescope mount, it is like a ball but less.
+Skeletal gimbal telescope mount, it is like a ball but less.
 
 
 see: http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
