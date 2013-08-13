@@ -16,7 +16,7 @@ OpenSCAD code to generate the family of objects I'm calling SudiBalls.
 07/31/2013 - 08/07/2013 
 
 In the spirit of moving from the theoretical "you can design anything you want" 
-to the more piratical this, is the simplest one to build with everyday tools and materials 
+to the more practical this, is the simplest one to build with everyday tools and materials 
 here are vector drawings of my first Generic SudiBall. 
 The important part here is the slots are just 90 degree cuts 
 and cutting the entire profile at 90 degrees does not interfere 
