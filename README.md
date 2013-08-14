@@ -16,7 +16,7 @@ OpenSCAD code to generate the family of objects I'm calling SudiBalls.
 07/31/2013 - 08/07/2013 
 
 In the spirit of moving from the theoretical "you can design anything you want" 
-to the more practical -- this is the simplest SudiBball to build with everyday tools and materials. 
+to the more practical -- this is the simplest Sudiball to build with everyday tools and materials. 
 
 CAD drawings and print files of my first generic SudiBall are in the [Vector Files](/vector_files/) directory. 
 There are two sizes of vector drawing and two formats in the
