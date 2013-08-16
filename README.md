@@ -19,7 +19,7 @@ In the spirit of moving from the theoretical "you can design anything you want"
 to the more practical -- this is the simplest Sudiball to build with everyday tools and materials. 
 
 CAD drawings and print files of my first generic SudiBall are in the [Vector Files](/vector_files/) directory. 
-There are two sizes of vector drawing and two formats in the
+There are two sizes of vector drawing and four formats in the
 Both are designed to use 3/4" material. 
 So far, the 24" has been scaled in half and used with 3/8" material 
 and to a third to use 1/4" material. 
