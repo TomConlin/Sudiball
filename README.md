@@ -6,9 +6,13 @@ Sudiball   ![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/Sud
 Skeletal gimbal mount, it is like a ball but less.
 
 
-see: http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
 
-the file "sudiball_template.scad" is 
+for more information see: 
+https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html
+or a short paper
+http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
+
+The file "[SudiBall Template](/sudiball_template.scad/)" file is 
 OpenSCAD code to generate the family of objects I'm calling SudiBalls.
 
 
