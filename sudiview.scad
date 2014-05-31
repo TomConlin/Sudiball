@@ -1,7 +1,8 @@
 // SudiView.scad
 
-
+echo ("Change design parameters in 'sudiconfig.scad'");
 include <sudiconfig.scad>;
+
 include <sudilib.scad>;
 
 // visually mark the intersection center for the planes
@@ -26,7 +27,7 @@ difference() {	// remove the light path and the hole pattern
 		// the hole pattern in each sheet
 		for(rot=[0:delta:359.9]){
 		 	 about([tilt,0,rot],centerofrotation)
-		  	  holepattern(ball_dia-4*thickness,.5,12,thickness);
+		  	  holepattern(hp_patdia,hp_holedia,hp_holecount,hp_holedepth);
 		}
 	}
 }

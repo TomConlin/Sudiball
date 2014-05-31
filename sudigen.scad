@@ -4,35 +4,37 @@ include <sudiconfig.scad>;
 include <sudilib.scad>;
 
 echo ("When the script is ready hit F6");
-echo ("Then export as dxf from the 'Design' menu");
+echo ("Then export as DXF from the 'Design' menu");
 
 
 // build the first panel of a sudiball then lay it down 
 
-projection(cut = true)  
+// cut takes a slice through the xy plane at z=0  
+projection(cut=true)  
+
+// lay the first panle back down
  rotate([-tilt-90,0,0]) 
 	translate(-centerofrotation)
 
-difference() {	// remove the light path and the hole pattern
-
+// remove the light path and the hole pattern fron the panel(s)
+difference() {	
 	intersection() {	// isolate the sudiball
 		// the outside shape of the ball
-		translate([0,0,ball_r])
+		translate(centerofrotation)
 		 sphere(ball_r,center=true);		
-		// position the main plane
-		// This first one is kept
+		// position the first panel
 		sheet([2*ball_r,thickness,2*ball_r],[tilt,0,0],centerofrotation);
 	}
-	union(){ // stuff to be removed
+	union(){ // stuff to be removed from the inside
 		union(){ 
 			// define the light path to be removed, 
 			cylinder(r1=ota_ir, r2=ball_r*cos(tilt)-thickness, h=ball_dia);
 			
 			// the hole pattern in first sheet		
 		 	about([tilt,0,0],centerofrotation)
-		  	 holepattern(ball_dia-4*thickness,.5,12,thickness);
+		  	 holepattern(hp_patdia,hp_holedia,hp_holecount,hp_holedepth);
 		}
-		// the other planes alternate as inner & outter voids
+		// the other panels alternate as inner & outter voids
 		//intersect_for(rot=[delta:delta:359.9]){
 		for(rot=[delta:delta:359.9]){
 			if((rot/delta)%2){ 
