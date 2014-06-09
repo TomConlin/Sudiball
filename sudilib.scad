@@ -1,5 +1,8 @@
 // sudilib.scad
 
+
+
+
 // routines shared bettween scripts that generate 3D models and 2D DXF
 
 /////////////////////////////////////////////
@@ -7,10 +10,10 @@
 
 module holepattern (circle_dia, hole_dia, count, depth){
 	for(hp=[0:360/count:360]){
-		translate([0,-.1,0])
+		translate([0,-.5,0])
 		 rotate([90,hp,0])
 		  translate([circle_dia/2,0,0])
-		   cylinder(h=depth+.2, r=hole_dia/2, center=true);
+		   cylinder(h=depth+1, r=hole_dia/2, center=true);
 	}
 }
 
@@ -20,7 +23,7 @@ module holepattern (circle_dia, hole_dia, count, depth){
 module about (rot, pnt) { 
 	translate(pnt)
 	 rotate(a=rot)    
-	  child();	   // children() in newer versions
+	  children();	   // child() in older versions
 }
 
 ////////////////////////////////////////////////
