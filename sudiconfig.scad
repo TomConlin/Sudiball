@@ -1,6 +1,6 @@
 // SudiConfig
-// design parameters to be shared between 3d model generater script
-// and the 2D dfx generater script
+// design parameters to be shared between 3d model generator script
+// and the 2D dfx generator script
 
 // smaller magic numbers will be slower but smoother curves
 // smaller than .1 are ignored
@@ -11,7 +11,7 @@ $fs=.5; // fragment size
 
 // mirror/OTA parameters
 ota_id=6;		// what diameter mirror
-F_ratio=7;		// focal ratio (for approximate apperance)
+F_ratio=7;		// focal ratio (for approximate appearance)
 
 
 // Sudiball mount design parameters

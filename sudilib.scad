@@ -3,7 +3,7 @@
 
 
 
-// routines shared bettween scripts that generate 3D models and 2D DXF
+// routines shared between scripts that generate 3D models and 2D DXF
 
 /////////////////////////////////////////////
 // generate a circular hole pattern
@@ -35,7 +35,7 @@ module sheet (dim, rot, cnt) {
 }
 
 ////////////////////////////////////////////////
-// make a disk/cylynder rotated at a point
+// make a disk/cylinder rotated at a point
 
 module disk (height,radius, rot, cnt) {
 	about(rot, cnt)
