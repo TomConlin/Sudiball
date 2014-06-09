@@ -1,11 +1,10 @@
 // SudiView.scad
 
-echo ("Change design parameters in 'sudiconfig.scad'");
+echo ("Change design and rendering parameters in 'sudiconfig.scad'");
 include <sudiconfig.scad>;
-
 include <sudilib.scad>;
 
-// visually mark the intersection center for the planes
+// visually mark the intersection center for the planes for reference
 //
 color([1,0,0]) translate(centerofrotation) sphere(0.1,center=true);
 
@@ -21,8 +20,8 @@ difference() {	// remove the light path and the hole pattern
 		}
 	}
 	union(){ 
-		// define the light path to be removed from inside the ball, 
-		cylinder(r1=ota_ir, r2=ball_r*cos(tilt)-thickness, h=ball_dia);
+		// the light path to be removed from inside the ball, defined in sudiconfig 
+		lightpath(); // defined in sudiconfig.scad
 
 		// the hole pattern in each sheet
 		for(rot=[0:delta:359.9]){
@@ -32,8 +31,7 @@ difference() {	// remove the light path and the hole pattern
 	}
 }
 
-
 /////////////////////////////////////////////////////
-// show primay light path
- translate([0,0,2*thickness])
-		%cylinder(r=ota_ir,h=F_ratio*ota_id);
+// show primary light path
+ translate([0,0,ball_r-sqrt(ball_r*ball_r-ota_ir*ota_ir)])
+		#cylinder(r=ota_ir,h=F_ratio*ota_id);

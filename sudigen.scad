@@ -27,8 +27,8 @@ difference() {
 	}
 	union(){ // stuff to be removed from the inside
 		union(){ 
-			// define the light path to be removed, 
-			cylinder(r1=ota_ir, r2=ball_r*cos(tilt)-thickness, h=ball_dia);
+			//the light path to be removed, 
+			lightpath();
 			
 			// the hole pattern in first sheet		
 		 	about([tilt,0,0],centerofrotation)
