@@ -1,19 +1,17 @@
 // sudilib.scad
-
-
-
-
 // routines shared between scripts that generate 3D models and 2D DXF
 
 /////////////////////////////////////////////
 // generate a circular hole pattern
 
 module holepattern (circle_dia, hole_dia, count, depth){
+	eps  = 0.5;	// amount hole protrudes outside surface 
+    eps2 = 2 * eps;
 	for(hp=[0:360/count:360]){
-		translate([0,-.5,0])
+		translate([0,-eps,0])
 		 rotate([90,hp,0])
 		  translate([circle_dia/2,0,0])
-		   cylinder(h=depth+1, r=hole_dia/2, center=true);
+		   cylinder(h = depth+eps2, r = hole_dia/2, center = true);
 	}
 }
 
@@ -22,16 +20,18 @@ module holepattern (circle_dia, hole_dia, count, depth){
 
 module about (rot, pnt) { 
 	translate(pnt)
-	 rotate(a=rot)    
-	  children();	   // child() in older versions
+	 rotate(a = rot)    
+	  children();
+	  // children([0:$children-1]);	
+	  // child(); // in older versions
 }
 
-////////////////////////////////////////////////
+///////////////////////////////////////////////
 // make a box rotated at a point
 
-module sheet (dim, rot, cnt) {
-	 about(rot, cnt)
-	  cube(size=dim,center=true);	
+module sheet (dim, rot, cent) {
+	 about(rot, cent)
+	  cube(size = dim, center = true);	
 }
 
 ////////////////////////////////////////////////
@@ -40,7 +40,7 @@ module sheet (dim, rot, cnt) {
 module disk (height,radius, rot, cnt) {
 	about(rot, cnt)
 	 rotate([90,0,0])
-	  cylinder(h=height,r=radius,center=true);	
+	  cylinder(h = height, r = radius, center = true);	
 }
 
 ////////////////////////////////////////////////
@@ -50,8 +50,8 @@ module washer(height,outside,inside, rot, cnt) {
 	about(rot, cnt)
 	 rotate([90,0,0])
 	  difference(){
-		cylinder(h=height,r=outside,center=true);
-		cylinder(h=height,r=inside,center=true);
+		cylinder(h = height, r = outside, center = true);
+		cylinder(h = height, r = inside, center = true);
 	}
 }
 

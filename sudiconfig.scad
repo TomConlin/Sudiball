@@ -1,51 +1,63 @@
 // SudiConfig
 // design parameters to be shared between 3d model generator script
 // and the 2D dfx generator script
+// KNOWN TO WORK WITH OpenSCAD version 2014.03
+// (and seen not working in unstable snapshots)
 
-// smaller magic numbers will be slower but smoother curves
-// smaller than .1 are ignored
-// make them larger when viewing then smaller when generating if necessary
 
-$fa=3;  // fragment angle
-$fs=.5; // fragment size
+// bring in the basic helper functions
+include <sudilib.scad>;
 
-// mirror/OTA parameters
-ota_id=6;		// what diameter mirror
-F_ratio=7;		// focal ratio (for approximate appearance)
+// magic numbers begin wth '$'
+// smaller magic numbers result in slower but smoother curves
+// values smaller than .1 are ignored
+// make them larger when viewing and smaller when generating if necessary
+
+$fa =	1;		   // fragment angle (what looks smooth enough)
+$fs =	.125;		// fragment size (using the radius of rouder bit used here)
+
+$fa =	2;		   // fragment angle (what looks smooth enough)
+$fs =	.5;		// fragment size (using the radius of rouder bit used here)
+
+// mirror amd optical tube assembley (OTA) parameters
+ota_id =6;		// what diameter mirror
+F_ratio=8;		// focal ratio (for approximate appearance)
 
 
 // Sudiball mount design parameters
-planes=3;       //  3,4...   (2 for dob like rockers, more for headaches)
-tilt=45;        // +/- angles in degrees 
-ball_dia=15;    // what diameter ball to use
-thickness=.375; // sheet material thickness
+planes	 =  3;	//  2,[3],4...
+tilt	 = 45;	// +/- angles in degrees 
+ball_dia = 24;	// what diameter ball to use
+thickness = .75;	// sheet material thickness
 
-// hole pattern parameters
-hp_patdia=13; 	// pattern diameter (~ball_dia-4*thickness)
-hp_holedia=.375;						// hole diameter
-hp_holedepth=thickness;				// hole depth (centered and adds epsilon)
-hp_holecount=12;   					// how many holes
+// hole pattern parameters 
+// these are holes about the permiter for fixturing
+hp_patdia    =	21;	// pattern diameter (apx; ball_dia- 4 * thickness)
+hp_holedia   =	.5;	// hole diameter
+hp_holedepth =	thickness; // hole depth (centered, will add epsilon > 0)
+hp_holecount =	12;		// how many holes
 
 // derived variables
-intersect=ball_dia/2;
-ota_ir=ota_id/2;
-ota_or=ota_ir+thickness;
-ball_r=ball_dia/2;
-delta=360/planes;
-centerofrotation=[0,0,intersect];
+intersect =	ball_dia / 2;
+ota_ir =	ota_id / 2;
+ota_or = ota_ir + thickness;
+ball_r =	ball_dia / 2;
+delta  =	360 / planes;
+centerofrotation = [0,0,intersect];
 
 ////////////////////////////////////////////////////////////////////////////// 
 // modules to define shapes used in both sudiview and sudigen
 
-// define the light path to be removed from inside the ball,
+// define the light path clearence to be removed from inside the ball,
 module lightpath (){
-	//the light path won't' begin lower in the ball than 
-	// the dia of the mirror will fit
+	// the light path won't' begin lower in the ball than 
+	// the dia of the mirror will fit within
 	
-	translate([0,0,ball_r-sqrt(ball_r*ball_r-ota_or*ota_or)])  // min height
+ // min height plus the thickness
+	translate([0,0,ball_r-sqrt(ball_r*ball_r-ota_ir*ota_ir)+ thickness]) 
 		cylinder(
-			r1=ota_ir, 						// r1 needs to clear the mirror
-			r2=ball_r-thickness,   // r2 can be whatever works for you
-			h= ball_dia-thickness	// h can be whatever works for you
+			r1 = ota_ir,				// r1 needs to clear the mirror
+			r2 = ball_r ,	// r2 can be whatever works for you
+			h  = ball_dia - thickness	// h can be whatever works for you
 		);	
 }
