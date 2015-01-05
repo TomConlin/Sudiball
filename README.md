@@ -16,20 +16,18 @@ To facilitate visual experimentation prior to generating 2D vector
 files, the scripts are divided into four modules.
 
 
-__sudiconfig.scad__:  Where you will edit parameters (use any text editor) 
-__sudiview.scad__:	 Load in OpenSCAD to see changes from parameters edited
+__sudiconfig.scad__:  Where you will edit parameters (use any text editor)   
+__sudiview.scad__:	 Load in OpenSCAD to see changes from parameters edited  
 __sudigen.scad__:	 Load in OpenSCAD to generate parts  
 __sudilib.scad__:	Common routines used by sudigen & sudigen so you get what you see.   
 
 
-
-
 ------------------------------------------------------------------------
-for more information see: 
-https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html
-or a short paper
-http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
-The file "[SudiBall Template](/sudiball_template.scad/)" file is 
+For more information see:  
+https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html  
+or a short paper  
+http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf  
+The file "[SudiBall Template](Mark_I/sudiball_template.scad/)" file is 
 OpenSCAD code to generate the family of objects I'm calling Sudiballs.
 (06/08/2013)
 
