@@ -2,18 +2,17 @@ Sudiball   ![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/Sud
 ========
 
 
-
 ##Skeletal gimbal mount
 ###It's like a ball but less. 
 
 To play with the models yourself you will need to
-install a recent __stable__ version of OpensCAD
-(the default version available to some older linux systems  is broken)
+install a recent __stable__ version of OpenSCAD  
+(the default version available to some older Linux systems  is broken)
 
-I am focucsing the software on easily built "standard" versions
-where the planes intersct at right angles in the center of the ball. 
+I am focusing the software on easily built "standard" versions
+where the planes intersect at right angles in the center of the ball. 
 
-To facilitate visual expermentation prior to generating 2D vector
+To facilitate visual experimentation prior to generating 2D vector
 files, the scripts are divided into four modules.
 
 
@@ -31,7 +30,7 @@ https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html
 or a short paper
 http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
 The file "[SudiBall Template](/sudiball_template.scad/)" file is 
-OpenSCAD code to generate the family of objects I'm calling SudiBalls.
+OpenSCAD code to generate the family of objects I'm calling Sudiballs.
 (06/08/2013)
 
 
@@ -40,7 +39,7 @@ OpenSCAD code to generate the family of objects I'm calling SudiBalls.
 In the spirit of moving from the theoretical "you can design anything you want" 
 to the more practical -- this is the simplest Sudiball to build with everyday tools and materials. 
 
-CAD drawings and print files of my first generic SudiBall are in the [Vector Files](/vector_files/) directory. 
+CAD drawings and print files of my first generic Sudiball are in the [Vector Files](/vector_files/) directory. 
 There are two sizes of vector drawing and four formats in the
 Both are designed to use 3/4" material. 
 So far, the 24" has been scaled in half and used with 3/8" material 
