@@ -21,7 +21,9 @@ __sudiview.scad__:	 Load in OpenSCAD to see changes from parameters edited
 __sudigen.scad__:	 Load in OpenSCAD to generate parts seen in sudiview  
 __sudilib.scad__:	Common routines used by sudiview & sudigen so you get what you see.   
 
---2015 Jan 05
+
+--2015 Jan 05  
+
 ------------------------------------------------------------------------
 For more information see:  
 https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html  
