@@ -18,8 +18,8 @@ files, the scripts are divided into four modules.
 
 __sudiconfig.scad__:  Where you will edit parameters (use any text editor)   
 __sudiview.scad__:	 Load in OpenSCAD to see changes from parameters edited  
-__sudigen.scad__:	 Load in OpenSCAD to generate parts  
-__sudilib.scad__:	Common routines used by sudigen & sudigen so you get what you see.   
+__sudigen.scad__:	 Load in OpenSCAD to generate parts seen in sudiview 
+__sudilib.scad__:	Common routines used by sudiview & sudigen so you get what you see.   
 
 
 ------------------------------------------------------------------------
