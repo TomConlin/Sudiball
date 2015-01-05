@@ -21,7 +21,7 @@ __sudiview.scad__:	 Load in OpenSCAD to see changes from parameters edited
 __sudigen.scad__:	 Load in OpenSCAD to generate parts seen in sudiview  
 __sudilib.scad__:	Common routines used by sudiview & sudigen so you get what you see.   
 
-
+--2015 Jan 05
 ------------------------------------------------------------------------
 For more information see:  
 https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/index.html  
@@ -29,7 +29,8 @@ or a short paper
 http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf  
 The file "[SudiBall Template](Mark_I/sudiball_template.scad/)" file is 
 OpenSCAD code to generate the family of objects I'm calling Sudiballs.
-(06/08/2013)
+
+--2013 Aug 06
 
 
 ------------------------------------------------------------------------
@@ -56,7 +57,7 @@ is under six thousandths of an inch, since the square edge is tangent to the sph
 This means just breaking the edge with sandpaper does a pretty good job of forming the desired curve.
 i.e. Sticking adhesive back sandpaper to the ground ring and swirling it about is enough.
 
-7/31/2013 - 08/07/2013
+--2013 Jul 31 - 2013 Aug 07
 
 ------------------------------------------------------------------------
 
