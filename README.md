@@ -47,6 +47,7 @@ http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
 
 
 ------------------------------------------------------------------------
+--2013 Jul 31 - 2013 Aug 07
 
 In the spirit of moving from the theoretical "you can design anything you want" 
 to the more practical -- this is the simplest Sudiball to build with everyday tools and materials. 
@@ -70,9 +71,11 @@ is under six thousandths of an inch, since the square edge is tangent to the sph
 This means just breaking the edge with sandpaper does a pretty good job of forming the desired curve.
 i.e. Sticking adhesive back sandpaper to the ground ring and swirling it about is enough.
 
---2013 Jul 31 - 2013 Aug 07
 
 
+--------------------------------------------------------------------------------
+
+--2017 March  
 A couple of incremental update notes.
 First regarding a base which can be a simple ring.  
 The SudiBall must contact the ring in at least three places which limits the
@@ -96,7 +99,7 @@ sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Cacula
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
 but by cutting interlocking fingers into the ends of the runners you get a
-simple solid connection called a ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
+simple solid connection called a fingerjoint ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
 
 
 ------------------------------------------------------------------------
