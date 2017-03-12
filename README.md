@@ -85,17 +85,21 @@ the height of the triangle formed by the intersecting runners.
  
 It is easy to unedrestimate the lateral forces in play which to tend to distort
 the ring from circular to a trifoil or warped from a plane.
-Even small distortions will cause a TIC when a runner aproaches the support ring broadside.
+Even small distortions will cause a TIC! when a runner contacts the support ring broadside.
 
 Two ways to mitigate.
 - Make a stronger ring support.  
-- Ease the approach onto the ring.
+- Ease the approach onto the support.
 
-The first is whatever works, the second is geometery.
+The first needs whatever works, the second is geometery.
 If the support surface is flat and nearly _normal_ or _tangent_ to the curve
 of the SudiBall it forms little "on ramps" whos easement is related the the width
-of of the flat surface. It also allows covering the support surface with a (replacable)    
+of of the flat surface.
+![conic easement](Gallery/normal_support.eps)
+
+It also allows covering the support surface with a (replacable)    
 sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Caculator](https://duckduckgo.com/?q=cone+caculator&ia=web)
+
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
 but by cutting interlocking fingers into the ends of the runners you get a
