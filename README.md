@@ -96,7 +96,7 @@ sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Cacula
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
 but by cutting interlocking fingers into the ends of the runners you get a
-simple solid connection. [fingerjoint](Gallery/sudiball_fingerjoint.png)  
+simple solid connection called a ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
 
 
 ------------------------------------------------------------------------
