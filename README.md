@@ -47,7 +47,7 @@ http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
 
 
 ------------------------------------------------------------------------
---2013 Jul 31 - 2013 Aug 07
+--2013 Jul
 
 In the spirit of moving from the theoretical "you can design anything you want" 
 to the more practical -- this is the simplest Sudiball to build with everyday tools and materials. 
@@ -87,15 +87,16 @@ the support ring not less than 61.25% of the SudiBall diameter.
 
 if you care why:
 the length of a chord with 90 deg separation is:  
-    ```2 *sin (90/ 2 ) * r```
+`2 *sin (90/ 2 ) * r`
 
 three of those cords come together as a equilateral triangle  
-the height of an equilateral triangle is sin(60) * length of a side  
-since we want a preceentage of a unit diameter and not of a unit radius
-we can drop the leading ```2 *```
+the height of an equilateral triangle is  
+`sin(60) * length of a side`     
+since we want a precentage of a unit diameter and not of a unit radius
+we can drop the leading `2 *`
 
-    ```sin(45) ×sin(60)  = 0.612372436```
-    ```0.612372436 * 100 = 61.25%```
+`sin(45) ×sin(60)  = 0.612372436`  
+`0.612372436 * 100 = 61.25%`
  
 ------------------------------------------------------------------------------
  
