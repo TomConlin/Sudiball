@@ -98,7 +98,7 @@ of of the flat surface.
 ![conic easement](Gallery/nornal_support.png)
 
 It also allows covering the support surface with a (replacable)    
-sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Caculator](https://duckduckgo.com/?q=cone+caculator&ia=web)
+sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Calculator](https://duckduckgo.com/?q=cone+calculator&ia=web)
 
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
