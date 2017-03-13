@@ -89,7 +89,7 @@ if you care why:
 the length of a chord with 90 deg separation is:  
 `2 *sin (90/ 2 ) * r`
 
-three of those cords come together as a equilateral triangle  
+three of those chords come together as a equilateral triangle  
 the height of an equilateral triangle is  
 `sin(60) * length of a side`     
 since we want a precentage of a unit diameter and not of a unit radius
