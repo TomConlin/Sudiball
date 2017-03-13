@@ -110,11 +110,14 @@ a nearly normal support surface.
 Joining the tips of a sudiball together can be tricky if joinery is not also your day job
 but by cutting interlocking fingers into the ends of the runners you get a
 simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Finger_joint)
-![fingerjoint](Gallery/sudiball_fingerjoint.png)  
+![fingerjoint](Gallery/sudiball_fingerjoint.png)
+(which is especially trivial if you are using a laser cutter)
 
-
+-------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-If you do something fun with these let me know I will set up a rouges gallery at some point.
+If you do build something along these lines please do get in touch,
 
-Please email sudiball360@gmail.com for more info.
+I am set up a rouges gallery and would be happy to show or point your work.
+
+Email sudiball360@gmail.com for more info.
