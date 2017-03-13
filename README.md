@@ -17,19 +17,19 @@ files, the scripts are divided into four modules.
 
 
 __sudiconfig.scad__:  Where you will edit parameters (use any text editor)   
-__sudiview.scad__:	 Open with OpenSCAD to see changes from parameters edited  
-__sudigen.scad__:	 Open with OpenSCAD to generate parts seen in sudiview  
+__sudiview.scad__:	 Open with OpenSCAD to see changes from parameters edited & save 3D.  
+__sudigen.scad__:	 Open with OpenSCAD to generate 2D parts seen in sudiview  
 __sudilib.scad__:	Common routines used by both sudiview & sudigen.   
 
 Workflow is: with all four files in the same directory:  
 1.  open the _sudiconfig.scad_ file in your favorite text editor  
   (you can also use OpenSCAD as your editor but will need to switch files more  
-2.  open sudiview.scad_ in OpenSCAD and have it render (hit F5)  
+2.  open __sudiview.scad__ in OpenSCAD and have it render (hit F5)  
 3.  Edit the _sudiconfig.scad_ file to suit your needs  
 4.  Hit F5 to render your changes in the OpenScad window running sudiview.scad_  
 5.  Rinse and repeat the previous two steps to your hearts content  
-6.  For 3D files just choose the format you want and __Export__ it.  
-7.  For 2D files of one flat sheet
+6.  For 3D files just choose the format you want (.stl) and __Export__ it.  
+7.  For 2D files of one flat sheet use __sudigen.scad__ and read instructions.
 
 ------------------------------------------------------------------------
 For more information see:
