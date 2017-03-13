@@ -85,10 +85,10 @@ the height of the triangle formed by the intersecting runners.
  
 It is easy to unedrestimate the lateral forces in play which to tend to distort
 the ring from circular to a trifoil or warped from a plane.
-Even small distortions will cause a TIC! when a runner contacts the support ring broadside.
+Even small distortions will cause a _TIC!_ when a runner contacts the support ring broadside.
 
-Two ways to mitigate.
-- Make a stronger ring support.  
+Two approaches to mitigate the _TIC!_.  
+- Use a stronger ring support.  
 - Ease the approach onto the support.
 
 The first needs whatever works, the second is geometery.
@@ -100,13 +100,19 @@ of of the flat surface.
 It also allows covering the support surface with a (replacable)    
 sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Calculator](https://duckduckgo.com/?q=cone+calculator&ia=web)
 
+With a minimal sized ring for a standard three plane SudiBall  
+an off-the-shelf [45-deg rouder bit](https://duckduckgo.com/?q=45+deg+router+bit+chamfer&iax=1&ia=images)
+swung in a [router compass jig](https://duckduckgo.com/?q=router+compass+jig&iar=images&iax=1&ia=images) will chamfer
+a nearly normal support surface.  
+
+------------------------------------------------------------------------------
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
 but by cutting interlocking fingers into the ends of the runners you get a
 simple solid connection called a fingerjoint ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
 
 
-------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 If you do something fun with these let me know I will set up a rouges gallery at some point.
 
