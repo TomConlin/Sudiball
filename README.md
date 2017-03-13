@@ -107,9 +107,10 @@ a nearly normal support surface.
 
 ------------------------------------------------------------------------------
 
-Joining the tips of a sudiball together can be tricky if joinery is not also your dayjob
+Joining the tips of a sudiball together can be tricky if joinery is not also your day job
 but by cutting interlocking fingers into the ends of the runners you get a
-simple solid connection called a fingerjoint ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
+simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Finger_joint)
+![fingerjoint](Gallery/sudiball_fingerjoint.png)  
 
 
 ------------------------------------------------------------------------------
