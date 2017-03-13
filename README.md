@@ -81,7 +81,23 @@ First regarding a base which can be a simple ring.
 The SudiBall must contact the ring in at least three places which limits the
 diameter of the supporting ring to be not smaller than
 the height of the triangle formed by the intersecting runners.
-(height is measured from the center of the base to the apex of an equlateral triangle)
+(height is measured from the center of the base to the apex of an equlateral triangle)  
+This give a rule of thumb of the diameter of the contact patch on
+the support ring not less than 61.25% of the SudiBall diameter.
+
+if you care why:
+the length of a chord with 90 deg separation is:  
+    ```2 *sin (90/ 2 ) * r```
+
+three of those cords come together as a equilateral triangle  
+the height of an equilateral triangle is sin(60) * length of a side  
+since we want a preceentage of a unit diameter and not of a unit radius
+we can drop the leading ```2 *```
+
+    ```sin(45) ×sin(60)  = 0.612372436```
+    ```0.612372436 * 100 = 61.25%```
+ 
+------------------------------------------------------------------------------
  
 It is easy to unedrestimate the lateral forces in play which to tend to distort
 the ring from circular to a trifoil or warped from a plane.
