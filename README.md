@@ -94,7 +94,7 @@ Two approaches to mitigate the _TIC!_.
 The first needs whatever works, the second is geometery.
 If the support surface is flat and nearly _normal_ or _tangent_ to the curve
 of the SudiBall it forms little "on ramps" whos easement is related the the width
-of of the flat surface.
+of of the flat surface.  
 ![conic easement](Gallery/nornal_support.png)
 
 It also allows covering the support surface with a (replacable)    
@@ -109,8 +109,8 @@ a nearly normal support surface.
 
 Joining the tips of a sudiball together can be tricky if joinery is not also your day job
 but by cutting interlocking fingers into the ends of the runners you get a
-simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Finger_joint)
-![fingerjoint](Gallery/sudiball_fingerjoint.png)
+simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Finger_joint)  
+![fingerjoint](Gallery/sudiball_fingerjoint.png)  
 (which is especially trivial if you are using a laser cutter)
 
 -------------------------------------------------------------------------------
@@ -118,6 +118,6 @@ simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Fin
 
 If you do build something along these lines please do get in touch,
 
-I am set up a rouges gallery and would be happy to show or point your work.
+I am setting up a rouges gallery and would be happy to show or point your work.
 
 Email sudiball360@gmail.com for more info.
