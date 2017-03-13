@@ -95,7 +95,7 @@ The first needs whatever works, the second is geometery.
 If the support surface is flat and nearly _normal_ or _tangent_ to the curve
 of the SudiBall it forms little "on ramps" whos easement is related the the width
 of of the flat surface.
-![conic easement](Gallery/nornal_support.pdf)
+![conic easement](Gallery/nornal_support.png)
 
 It also allows covering the support surface with a (replacable)    
 sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Caculator](https://duckduckgo.com/?q=cone+caculator&ia=web)
