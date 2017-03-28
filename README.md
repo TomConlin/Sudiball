@@ -1,22 +1,20 @@
 Sudiball   ![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/open_sb1t.png "Sudiball")
 ========
 
+##Skeletal gimbal mount  
+###It's like a ball but less.   
 
-##Skeletal gimbal mount
-###It's like a ball but less. 
-
-To play with the models yourself you will need to
+To play with the models yourself you will need to  
 install a recent __stable__ version of OpenSCAD  
 (You may need to get a recent version from <http://www.openscad.org/>)
 
-I am focusing the software on easily built "standard" versions
-where the planes intersect at right angles in the center of the ball. 
+I am focusing this software on easily built "standard" versions  
+(where the planes intersect at right angles in the center of the ball).   
+To facilitate visual experimentation prior to generating 2D or 3D files,   
+the OpenSCAD scripts are divided into four modules.
 
-To facilitate visual experimentation prior to generating 2D or 3D
-files, the scripts are divided into four modules.
 
-
-__sudiconfig.scad__:  Where you will edit parameters (use any text editor)   
+__sudiconfig.scad__: Where you will edit parameters (use any text editor)   
 __sudiview.scad__:	 Open with OpenSCAD to see changes from parameters edited & save 3D.  
 __sudigen.scad__:	 Open with OpenSCAD to generate 2D parts seen in sudiview  
 __sudilib.scad__:	Common routines used by both sudiview & sudigen.   
@@ -29,7 +27,7 @@ Workflow is: with all four files in the same directory:
 4.  Hit F5 to render your changes in the OpenScad window running sudiview.scad_  
 5.  Rinse and repeat the previous two steps to your hearts content  
 6.  For 3D files just choose the format you want (.stl) and __Export__ it.  
-7.  For 2D files of one flat sheet use __sudigen.scad__ and read instructions.
+7.  For 2D files of one flat sheet use __sudigen.scad__ and read instructions.  
 
 ------------------------------------------------------------------------
 For more information see:
@@ -45,8 +43,8 @@ http://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall.pdf
 [Initial OpenSCAD SudiBall Template](Mark_I/sudiball_template.scad/)
 
 
-
 ------------------------------------------------------------------------
+Occasional Updates with newer further down the page  
 --2013 Jul
 
 In the spirit of moving from the theoretical "you can design anything you want" 
@@ -76,7 +74,7 @@ i.e. Sticking adhesive back sandpaper to the ground ring and swirling it about i
 --------------------------------------------------------------------------------
 
 --2017 March  
-A couple of incremental update notes.
+A couple of incremental update notes.  
 First regarding a base which can be a simple ring.  
 The SudiBall must contact the ring in at least three places which limits the
 diameter of the supporting ring to be not smaller than
@@ -85,13 +83,13 @@ the height of the triangle formed by the intersecting runners.
 This give a rule of thumb of the diameter of the contact patch on
 the support ring not less than 61.25% of the SudiBall diameter.
 
-if you care why:
+If you care where the 61.25% comes from,  
 the length of a chord with 90 deg separation is:  
 `2 *sin (90/ 2 ) * r`
 
 three of those chords come together as a equilateral triangle  
 the height of an equilateral triangle is  
-`sin(60) * length of a side`     
+`sin(60) * length of a side`  
 since we want a precentage of a unit diameter and not of a unit radius
 we can drop the leading `2 *`
 
@@ -99,22 +97,22 @@ we can drop the leading `2 *`
 `0.612372436 * 100 = 61.25%`
  
 ------------------------------------------------------------------------------
- 
+second note:   
 It is easy to unedrestimate the lateral forces in play which to tend to distort
 the ring from circular to a trifoil or warped from a plane.
 Even small distortions will cause a _TIC!_ when a runner contacts the support ring broadside.
 
 Two approaches to mitigate the _TIC!_.  
 - Use a stronger ring support.  
-- Ease the approach onto the support.
+- Ease the approach onto the support.  
 
-The first needs whatever works, the second is geometery.
+The first needs whatever works, the second is geometery.  
 If the support surface is flat and nearly _normal_ or _tangent_ to the curve
-of the SudiBall it forms little "on ramps" whos easement is related the the width
-of of the flat surface.  
+of the SudiBall it forms little "on ramps" whos easement is related to 
+the the width of of the flat surface.  
 ![conic easement](Gallery/nornal_support.png)
 
-It also allows covering the support surface with a (replacable)    
+It also allows covering the support surface with a (_replacable_)   
 sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Calculator](https://duckduckgo.com/?q=cone+calculator&ia=web)
 
 With a minimal sized ring for a standard three plane SudiBall  
