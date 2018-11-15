@@ -1,8 +1,8 @@
 Sudiball   ![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/open_sb1t.png "Sudiball")
 ========
 
-##Skeletal gimbal mount  
-###It's like a ball but less.   
+## Skeletal gimbal mount  
+### It's like a ball but less.   
 
 To play with the models yourself you will need to  
 install a recent __stable__ version of OpenSCAD  
