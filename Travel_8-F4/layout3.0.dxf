@@ -1,0 +1,690 @@
+  0
+SECTION
+2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$EXTMIN
+ 10
+-0.709
+20
+-0.873
+  9
+$EXTMAX
+ 10
+16.873
+ 20
+13.878
+  9
+$LIMMIN
+ 10
+-0.709
+20
+-0.873
+  9
+$LIMMAX
+ 10
+16.873
+ 20
+13.878
+  9
+$CLAYER
+  8
+2 holes
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+ 70
+2
+  0
+LAYER
+  2
+1outline
+ 70
+64
+ 62
+1
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+2holes
+ 70
+64
+ 62
+2
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+4.33971
+ 20
+11.2525
+  0
+VERTEX
+  8
+1outline
+ 10
+3.88994
+ 20
+11.6681
+  0
+VERTEX
+  8
+1outline
+ 10
+4.33188
+ 20
+12.1101
+  0
+VERTEX
+  8
+1outline
+ 10
+4.33188
+ 20
+12.9939
+  0
+VERTEX
+  8
+1outline
+ 10
+3.448
+ 20
+12.1101
+  0
+VERTEX
+  8
+1outline
+ 10
+3.00606
+ 20
+12.552
+  0
+VERTEX
+  8
+1outline
+ 10
+4.33188
+ 20
+13.8778
+  0
+VERTEX
+  8
+1outline
+ 10
+3.448
+ 20
+13.8778
+  0
+VERTEX
+  8
+1outline
+ 10
+2.56412
+ 20
+12.9939
+  0
+VERTEX
+  8
+1outline
+ 10
+2.12217
+ 20
+13.4359
+  0
+SEQEND
+  0
+ARC
+  8
+1outline
+ 10
+8
+ 20
+8
+ 40
+8.00004
+ 50
+137.237
+ 51
+222.763
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+2.12665
+ 20
+2.56826
+  0
+VERTEX
+  8
+1outline
+ 10
+3.18244
+ 20
+3.62438
+  0
+VERTEX
+  8
+1outline
+ 10
+3.62438
+ 20
+3.18244
+  0
+VERTEX
+  8
+1outline
+ 10
+2.56411
+ 20
+2.12216
+  0
+SEQEND
+  0
+ARC
+  8
+1outline
+ 10
+8
+ 20
+8
+ 40
+8
+ 50
+227.237
+ 51
+407.237
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+13.4317
+ 20
+13.8733
+  0
+VERTEX
+  8
+1outline
+ 10
+12.552
+ 20
+13.8778
+  0
+VERTEX
+  8
+1outline
+ 10
+13.4359
+ 20
+12.9939
+  0
+VERTEX
+  8
+1outline
+ 10
+12.9939
+ 20
+12.552
+  0
+VERTEX
+  8
+1outline
+ 10
+11.6681
+ 20
+13.8778
+  0
+VERTEX
+  8
+1outline
+ 10
+11.6681
+ 20
+12.9939
+  0
+VERTEX
+  8
+1outline
+ 10
+12.552
+ 20
+12.1101
+  0
+VERTEX
+  8
+1outline
+ 10
+12.1101
+ 20
+11.6681
+  0
+VERTEX
+  8
+1outline
+ 10
+11.6681
+ 20
+12.1101
+  0
+VERTEX
+  8
+1outline
+ 10
+11.6681
+ 20
+11.2262
+  0
+SEQEND
+  0
+ARC
+  8
+1outline
+ 10
+0.75
+ 20
+8
+ 40
+11.3848
+ 50
+343.569
+ 51
+376.462
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+11.6699
+ 20
+4.77968
+  0
+VERTEX
+  8
+1outline
+ 10
+12.8174
+ 20
+3.62456
+  0
+VERTEX
+  8
+1outline
+ 10
+12.3754
+ 20
+3.18262
+  0
+VERTEX
+  8
+1outline
+ 10
+11.2246
+ 20
+4.33398
+  0
+SEQEND
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+4.77541
+ 20
+4.33398
+  0
+VERTEX
+  8
+1outline
+ 10
+4.33017
+ 20
+4.77967
+  0
+SEQEND
+  0
+ARC
+  8
+1outline
+ 10
+2.5
+ 20
+8
+ 40
+9.46352
+ 50
+321.636
+ 51
+337.208
+  0
+POLYLINE
+  8
+1outline
+ 66
+1
+  0
+VERTEX
+  8
+1outline
+ 10
+9.92023
+ 20
+2.12647
+  0
+VERTEX
+  8
+1outline
+ 10
+6.07977
+ 20
+2.12647
+  0
+SEQEND
+  0
+ARC
+  8
+1outline
+ 10
+13.5
+ 20
+8
+ 40
+9.46352
+ 50
+202.792
+ 51
+218.364
+  0
+ARC
+  8
+1outline
+ 10
+15.25
+ 20
+8
+ 40
+11.3848
+ 50
+163.407
+ 51
+196.431
+  0
+POLYLINE
+  8
+2holes
+ 66
+1
+  0
+VERTEX
+  8
+2holes
+ 10
+3.36703
+ 20
+8
+  0
+VERTEX
+  8
+2holes
+ 10
+3.73001
+ 20
+10.7369
+  0
+SEQEND
+  0
+POLYLINE
+  8
+2holes
+ 66
+1
+  0
+VERTEX
+  8
+2holes
+ 10
+12.633
+ 20
+8
+  0
+VERTEX
+  8
+2holes
+ 10
+12.27
+ 20
+10.7369
+  0
+SEQEND
+  0
+ARC
+  8
+2holes
+ 10
+2.61703
+ 20
+8
+ 40
+0.75
+ 50
+180
+ 51
+360
+  0
+ARC
+  8
+2holes
+ 10
+13.383
+ 20
+8
+ 40
+0.75
+ 50
+180
+ 51
+360
+  0
+ARC
+  8
+2holes
+ 10
+3.17301
+ 20
+10.7869
+ 40
+0.559239
+ 50
+354.878
+ 51
+510
+  0
+ARC
+  8
+2holes
+ 10
+12.827
+ 20
+10.7869
+ 40
+0.559239
+ 50
+30.0001
+ 51
+185.122
+  0
+ARC
+  8
+2holes
+ 10
+8
+ 20
+8
+ 40
+6.13615
+ 50
+150
+ 51
+180
+  0
+ARC
+  8
+2holes
+ 10
+8
+ 20
+8
+ 40
+6.13615
+ 50
+360
+ 51
+390
+  0
+CIRCLE
+  8
+2holes
+ 10
+1.93782
+ 20
+11.5
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+1
+ 20
+8
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+1.93782
+ 20
+4.5
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+4.5
+ 20
+1.93782
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+8
+ 20
+1
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+11.5
+ 20
+1.93782
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+14.0622
+ 20
+4.5
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+15
+ 20
+8
+ 40
+0.125
+  0
+CIRCLE
+  8
+2holes
+ 10
+14.0622
+ 20
+11.5
+ 40
+0.125
+  0
+ENDSEC
+  0
+EOF

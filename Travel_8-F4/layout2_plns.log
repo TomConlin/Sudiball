@@ -1,0 +1,3712 @@
+[Language]
+UiLanguage=en
+
+[UnitSettings]
+Unit=1
+PaperUnit=1
+
+[DimensionSettings]
+LinearFormat=3
+DIMTXT=0.125
+DIMEXE=0.0625
+DIMEXO=0.03125
+DIMGAP=0.03125
+DIMASZ=0.125
+
+[PageSettings]
+PaperSizeName=Custom
+PaperWidth=-0.0393700787401575
+PaperHeight=-0.0393700787401575
+
+[MultiPageSettings]
+GlueMarginsLeft=0.5
+GlueMarginsTop=0.5
+GlueMarginsBottom=0.5
+GlueMarginsRight=0.5
+
+[Input]
+DecimalPoint=.
+
+[GraphicsViewColors]
+BackgroundColor=@Variant(\0\0\0\x7f\0\0\0\aRColor\0\x1\xff\xff\0\0\0\0\0\0\0\0\0\x2)
+
+[LibraryBrowser]
+SourceList=@Invalid()
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+ItemCount=68
+Tab=0
+
+[Application]
+Version=03120800
+
+[AddOns]
+List=scripts/Reset/Reset.js, scripts/File/File.js, scripts/File/AutoSave/AutoSave.js, scripts/File/BitmapExport/BitmapExport.js, scripts/File/CloseFile/CloseFile.js, scripts/File/ImportFile/ImportFile.js, scripts/File/NewFile/NewFile.js, scripts/File/OpenFile/OpenFile.js, scripts/File/PdfExport/PdfExport.js, scripts/File/Print/Print.js, scripts/File/PrintCurrentView/PrintCurrentView.js, scripts/File/PrintPreview/PrintPreview.js, scripts/File/Quit/Quit.js, scripts/File/RecentFiles/RecentFiles.js, scripts/File/Save/Save.js, scripts/File/SaveAs/SaveAs.js, scripts/File/SvgImport/SvgImport.js, scripts/Edit/Edit.js, scripts/Edit/AppPreferences/AppPreferences.js, scripts/Edit/AppPreferences/GraphicsViewPreferences/GraphicsViewPreferences.js, scripts/Edit/AppPreferences/GraphicsViewPreferences/BehaviorPreferences/BehaviorPreferences.js, scripts/Edit/AppPreferences/GraphicsViewPreferences/ColorPreferences/ColorPreferences.js, scripts/Edit/AppPreferences/GraphicsViewPreferences/FontPreferences/FontPreferences.js, scripts/Edit/AppPreferences/GraphicsViewPreferences/GridPreferences/GridPreferences.js, scripts/Edit/AppPreferences/InputPreferences/InputPreferences.js, scripts/Edit/AppPreferences/LanguagePreferences/LanguagePreferences.js, scripts/Edit/AppPreferences/LayerCompatibility/LayerCompatibility.js, scripts/Edit/AppPreferences/ScriptingPreferences/ScriptingPreferences.js, scripts/Edit/AppPreferences/StartupPreferences/StartupPreferences.js, scripts/Edit/AppPreferences/TextPreferences/TextPreferences.js, scripts/Edit/AppPreferences/ToolBarPreferences/ToolBarPreferences.js, scripts/Edit/Copy/Copy.js, scripts/Edit/CopyWithReference/CopyWithReference.js, scripts/Edit/Cut/Cut.js, scripts/Edit/CutWithReference/CutWithReference.js, scripts/Edit/Delete/Delete.js, scripts/Edit/DrawingPreferences/DrawingPreferences.js, scripts/Edit/DrawingPreferences/ColorSettings/ColorSettings.js, scripts/Edit/DrawingPreferences/DimensionSettings/DimensionSettings.js, scripts/Edit/DrawingPreferences/GridSettings/GridSettings.js, scripts/Edit/DrawingPreferences/LinetypeSettings/LinetypeSettings.js, scripts/Edit/DrawingPreferences/PageSettings/PageSettings.js, scripts/Edit/DrawingPreferences/PointDisplaySettings/PointDisplaySettings.js, scripts/Edit/DrawingPreferences/UnitSettings/UnitSettings.js, scripts/Edit/DrawingPreferences/ViewportSettings/ViewportSettings.js, scripts/Edit/Duplicate/Duplicate.js, scripts/Edit/Esc/Esc.js, scripts/Edit/Paste/Paste.js, scripts/Edit/Redo/Redo.js, scripts/Edit/Undo/Undo.js, scripts/View/View.js, scripts/View/AntialiasingMode/AntialiasingMode.js, scripts/View/CommandLineFocus/CommandLineFocus.js, scripts/View/DisplayDistanceAngle/DisplayDistanceAngle.js, scripts/View/DraftMode/DraftMode.js, scripts/View/IsometricView/IsometricView.js, scripts/View/IsometricView/IsometricGridLeft/IsometricGridLeft.js, scripts/View/IsometricView/IsometricGridOff/IsometricGridOff.js, scripts/View/IsometricView/IsometricGridRight/IsometricGridRight.js, scripts/View/IsometricView/IsometricGridTop/IsometricGridTop.js, scripts/View/LinetypeMode/LinetypeMode.js, scripts/View/OptionsToolBarFocus/OptionsToolBarFocus.js, scripts/View/ShowToolDialog/ShowToolDialog.js, scripts/View/ToggleGrid/ToggleGrid.js, scripts/View/ViewToolBars/ViewToolBars.js, scripts/View/Zoom/Zoom.js, scripts/View/Zoom/AutoZoom/AutoZoom.js, scripts/View/Zoom/PanZoom/PanZoom.js, scripts/View/Zoom/PreviousView/PreviousView.js, scripts/View/Zoom/WindowZoom/WindowZoom.js, scripts/View/Zoom/ZoomIn/ZoomIn.js, scripts/View/Zoom/ZoomOut/ZoomOut.js, scripts/View/Zoom/ZoomToSelection/ZoomToSelection.js, scripts/Select/Select.js, scripts/Select/DeselectAll/DeselectAll.js, scripts/Select/InvertSelection/InvertSelection.js, scripts/Select/SelectAll/SelectAll.js, scripts/Select/SelectContour/SelectContour.js, scripts/Select/SelectIntersectedEntities/SelectIntersectedEntities.js, scripts/Select/SelectLayerByEntity/SelectLayerByEntity.js, scripts/Select/SelectRectangle/SelectRectangle.js, scripts/Draw/Draw.js, scripts/Draw/Arc/Arc.js, scripts/Draw/Arc/Arc2PA/Arc2PA.js, scripts/Draw/Arc/Arc2PH/Arc2PH.js, scripts/Draw/Arc/Arc2PL/Arc2PL.js, scripts/Draw/Arc/Arc2PR/Arc2PR.js, scripts/Draw/Arc/Arc3P/Arc3P.js, scripts/Draw/Arc/ArcConcentric/ArcConcentric.js, scripts/Draw/Arc/ArcConcentricThrough/ArcConcentricThrough.js, scripts/Draw/Arc/ArcCPA/ArcCPA.js, scripts/Draw/Arc/ArcTangential/ArcTangential.js, scripts/Draw/Arc/ArcTPR/ArcTPR.js, scripts/Draw/Circle/Circle.js, scripts/Draw/Circle/Circle2P/Circle2P.js, scripts/Draw/Circle/Circle2PR/Circle2PR.js, scripts/Draw/Circle/Circle2TP/Circle2TP.js, scripts/Draw/Circle/Circle2TR/Circle2TR.js, scripts/Draw/Circle/Circle3P/Circle3P.js, scripts/Draw/Circle/Circle3T/Circle3T.js, scripts/Draw/Circle/CircleCD/CircleCD.js, scripts/Draw/Circle/CircleConcentric/CircleConcentric.js, scripts/Draw/Circle/CircleConcentricThrough/CircleConcentricThrough.js, scripts/Draw/Circle/CircleCP/CircleCP.js, scripts/Draw/Circle/CircleCR/CircleCR.js, scripts/Draw/Circle/CircleT2P/CircleT2P.js, scripts/Draw/Circle/CircleTPR/CircleTPR.js, scripts/Draw/Dimension/Dimension.js, scripts/Draw/Dimension/DimAligned/DimAligned.js, scripts/Draw/Dimension/DimAngular/DimAngular.js, scripts/Draw/Dimension/DimDiametric/DimDiametric.js, scripts/Draw/Dimension/DimHorizontal/DimHorizontal.js, scripts/Draw/Dimension/DimOrdinate/DimOrdinate.js, scripts/Draw/Dimension/DimRadial/DimRadial.js, scripts/Draw/Dimension/DimRegen/DimRegen.js, scripts/Draw/Dimension/DimRotated/DimRotated.js, scripts/Draw/Dimension/DimVertical/DimVertical.js, scripts/Draw/Dimension/Leader/Leader.js, scripts/Draw/Ellipse/Ellipse.js, scripts/Draw/Ellipse/EllipseArcCPPA/EllipseArcCPPA.js, scripts/Draw/Ellipse/EllipseCPP/EllipseCPP.js, scripts/Draw/Ellipse/EllipseDD/EllipseDD.js, scripts/Draw/Ellipse/EllipseInscribedQuad/EllipseInscribedQuad.js, scripts/Draw/Ellipse/EllipseOffset/EllipseOffset.js, scripts/Draw/Ellipse/EllipseOffsetThrough/EllipseOffsetThrough.js, scripts/Draw/Ellipse/EllipseRR/EllipseRR.js, scripts/Draw/Hatch/Hatch.js, scripts/Draw/Image/Image.js, scripts/Draw/Line/Line.js, scripts/Draw/Line/Line2P/Line2P.js, scripts/Draw/Line/LineAngle/LineAngle.js, scripts/Draw/Line/LineBisector/LineBisector.js, scripts/Draw/Line/LineFreehand/LineFreehand.js, scripts/Draw/Line/LineHorizontal/LineHorizontal.js, scripts/Draw/Line/LineOrthogonal/LineOrthogonal.js, scripts/Draw/Line/LineOrthogonalTangent/LineOrthogonalTangent.js, scripts/Draw/Line/LineParallel/LineParallel.js, scripts/Draw/Line/LineParallelThrough/LineParallelThrough.js, scripts/Draw/Line/LineRelativeAngle/LineRelativeAngle.js, scripts/Draw/Line/LineTangent1/LineTangent1.js, scripts/Draw/Line/LineTangent2/LineTangent2.js, scripts/Draw/Line/LineVertical/LineVertical.js, scripts/Draw/Point/Point.js, scripts/Draw/Point/Point1P/Point1P.js, scripts/Draw/Polyline/Polyline.js, scripts/Draw/Polyline/DrawPolyline/DrawPolyline.js, scripts/Draw/Shape/Shape.js, scripts/Draw/Shape/ShapePolygonAFCP/ShapePolygonAFCP.js, scripts/Draw/Shape/ShapePolygonAFPP/ShapePolygonAFPP.js, scripts/Draw/Shape/ShapePolygonCP/ShapePolygonCP.js, scripts/Draw/Shape/ShapePolygonPP/ShapePolygonPP.js, scripts/Draw/Shape/ShapeRectanglePP/ShapeRectanglePP.js, scripts/Draw/Shape/ShapeRectangleSize/ShapeRectangleSize.js, scripts/Draw/Spline/Spline.js, scripts/Draw/Spline/SplineControlPoints/SplineControlPoints.js, scripts/Draw/Text/Text.js, scripts/Draw/Text/TextDialog/TextDialog.js, scripts/Modify/Modify.js, scripts/Modify/AutoTrim/AutoTrim.js, scripts/Modify/Bevel/Bevel.js, scripts/Modify/BreakOut/BreakOut.js, scripts/Modify/BreakOutGap/BreakOutGap.js, scripts/Modify/BreakOutManual/BreakOutManual.js, scripts/Modify/Divide/Divide.js, scripts/Modify/EditHatch/EditHatch.js, scripts/Modify/EditText/EditText.js, scripts/Modify/Explode/Explode.js, scripts/Modify/FlipHorizontal/FlipHorizontal.js, scripts/Modify/FlipVertical/FlipVertical.js, scripts/Modify/Lengthen/Lengthen.js, scripts/Modify/Mirror/Mirror.js, scripts/Modify/Offset/Offset.js, scripts/Modify/OffsetThrough/OffsetThrough.js, scripts/Modify/Reverse/Reverse.js, scripts/Modify/Rotate/Rotate.js, scripts/Modify/Rotate2/Rotate2.js, scripts/Modify/Round/Round.js, scripts/Modify/Scale/Scale.js, scripts/Modify/Stretch/Stretch.js, scripts/Modify/ToBack/ToBack.js, scripts/Modify/ToFront/ToFront.js, scripts/Modify/Translate/Translate.js, scripts/Modify/TranslateRotate/TranslateRotate.js, scripts/Modify/Trim/Trim.js, scripts/Modify/TrimBoth/TrimBoth.js, scripts/Snap/Snap.js, scripts/Snap/LockRelativeZero/LockRelativeZero.js, scripts/Snap/RestrictAngleLength/RestrictAngleLength.js, scripts/Snap/RestrictHorizontal/RestrictHorizontal.js, scripts/Snap/RestrictOff/RestrictOff.js, scripts/Snap/RestrictOrthogonal/RestrictOrthogonal.js, scripts/Snap/RestrictVertical/RestrictVertical.js, scripts/Snap/SetRelativeZero/SetRelativeZero.js, scripts/Snap/SnapAuto/SnapAuto.js, scripts/Snap/SnapCenter/SnapCenter.js, scripts/Snap/SnapCoordinate/SnapCoordinate.js, scripts/Snap/SnapCoordinatePolar/SnapCoordinatePolar.js, scripts/Snap/SnapDistance/SnapDistance.js, scripts/Snap/SnapDistanceManual/SnapDistanceManual.js, scripts/Snap/SnapEnd/SnapEnd.js, scripts/Snap/SnapFree/SnapFree.js, scripts/Snap/SnapGrid/SnapGrid.js, scripts/Snap/SnapIntersection/SnapIntersection.js, scripts/Snap/SnapIntersectionManual/SnapIntersectionManual.js, scripts/Snap/SnapMiddle/SnapMiddle.js, scripts/Snap/SnapMiddleManual/SnapMiddleManual.js, scripts/Snap/SnapOnEntity/SnapOnEntity.js, scripts/Snap/SnapPerpendicular/SnapPerpendicular.js, scripts/Snap/SnapReference/SnapReference.js, scripts/Snap/SnapSelectionCenter/SnapSelectionCenter.js, scripts/Snap/SnapTangential/SnapTangential.js, scripts/Snap/SnapXManual/SnapXManual.js, scripts/Snap/SnapYManual/SnapYManual.js, scripts/Information/Information.js, scripts/Information/InfoAngle/InfoAngle.js, scripts/Information/InfoArcCircleArea/InfoArcCircleArea.js, scripts/Information/InfoArea/InfoArea.js, scripts/Information/InfoDistanceEP/InfoDistanceEP.js, scripts/Information/InfoDistancePP/InfoDistancePP.js, scripts/Information/InfoPosition/InfoPosition.js, scripts/Information/InfoPositionPol/InfoPositionPol.js, scripts/Information/InfoPositionPolRel/InfoPositionPolRel.js, scripts/Information/InfoPositionRel/InfoPositionRel.js, scripts/Layer/Layer.js, scripts/Layer/AddLayer/AddLayer.js, scripts/Layer/DeselectLayer/DeselectLayer.js, scripts/Layer/EditLayer/EditLayer.js, scripts/Layer/HideAllLayers/HideAllLayers.js, scripts/Layer/LockAllLayers/LockAllLayers.js, scripts/Layer/RemoveLayer/RemoveLayer.js, scripts/Layer/SelectLayer/SelectLayer.js, scripts/Layer/ShowActiveLayer/ShowActiveLayer.js, scripts/Layer/ShowAllLayers/ShowAllLayers.js, scripts/Layer/ToggleLayerVisibility/ToggleLayerVisibility.js, scripts/Layer/UnlockAllLayers/UnlockAllLayers.js, scripts/Block/Block.js, scripts/Block/AddBlock/AddBlock.js, scripts/Block/CreateBlock/CreateBlock.js, scripts/Block/CreateLibraryItem/CreateLibraryItem.js, scripts/Block/DeselectBlockReferences/DeselectBlockReferences.js, scripts/Block/EditBlock/EditBlock.js, scripts/Block/EditFromReference/EditFromReference.js, scripts/Block/EditMainDrawing/EditMainDrawing.js, scripts/Block/HideAllBlocks/HideAllBlocks.js, scripts/Block/InsertBlock/InsertBlock.js, scripts/Block/InsertBlockItem/InsertBlockItem.js, scripts/Block/InsertScriptItem/InsertScriptItem.js, scripts/Block/RemoveBlock/RemoveBlock.js, scripts/Block/RenameBlock/RenameBlock.js, scripts/Block/SelectBlockReferences/SelectBlockReferences.js, scripts/Block/ShowAllBlocks/ShowAllBlocks.js, scripts/Block/ToggleBlockVisibility/ToggleBlockVisibility.js, scripts/Window/Window.js, scripts/Window/CloseAll/CloseAll.js, scripts/Window/NextWindow/NextWindow.js, scripts/Window/PreviousWindow/PreviousWindow.js, scripts/Widgets/Widgets.js, scripts/Widgets/AutoZoomView/AutoZoomView.js, scripts/Widgets/BlockList/BlockList.js, scripts/Widgets/CadToolBar/CadToolBar.js, scripts/Widgets/CadToolMatrix/CadToolMatrix.js, scripts/Widgets/CommandLine/CommandLine.js, scripts/Widgets/CoordinateDisplay/CoordinateDisplay.js, scripts/Widgets/DirectoryList/DirectoryList.js, scripts/Widgets/FirstStart/FirstStart.js, scripts/Widgets/LayerList/LayerList.js, scripts/Widgets/LibraryBrowser/LibraryBrowser.js, scripts/Widgets/MouseDisplay/MouseDisplay.js, scripts/Widgets/OptionsToolBar/OptionsToolBar.js, scripts/Widgets/PenToolBar/PenToolBar.js, scripts/Widgets/ProgressBar/ProgressBar.js, scripts/Widgets/PropertyEditor/PropertyEditor.js, scripts/Widgets/SelectionDisplay/SelectionDisplay.js, scripts/Widgets/StatusBar/StatusBar.js, scripts/Widgets/TabBar/TabBar.js, scripts/Widgets/ToolBarContextMenu/ToolBarContextMenu.js, scripts/Widgets/Viewport/Viewport.js, scripts/Misc/Misc.js, scripts/Misc/Examples/Examples.js, scripts/Misc/Examples/BlockExamples/BlockExamples.js, scripts/Misc/Examples/BlockExamples/ExAddBlock/ExAddBlock.js, scripts/Misc/Examples/CommandLineExamples/CommandLineExamples.js, scripts/Misc/Examples/CommandLineExamples/ExSetColor/ExSetColor.js, scripts/Misc/Examples/DrawExamples/DrawExamples.js, scripts/Misc/Examples/DrawExamples/ExDrawColors/ExDrawColors.js, scripts/Misc/Examples/DrawExamples/ExText/ExText.js, scripts/Misc/Examples/DrawExamples/ExThreePoints/ExThreePoints.js, scripts/Misc/Examples/IOExamples/IOExamples.js, scripts/Misc/Examples/IOExamples/ExDumpPolyline/ExDumpPolyline.js, scripts/Misc/Examples/IOExamples/ExRegisterFileExporter/ExRegisterFileExporter.js, scripts/Misc/Examples/IOExamples/ExRegisterFileImporter/ExRegisterFileImporter.js, scripts/Misc/Examples/IOExamples/ExXmlExport/ExXmlExport.js, scripts/Misc/Examples/IOExamples/ExXmlImport/ExXmlImport.js, scripts/Misc/Examples/LayerExamples/LayerExamples.js, scripts/Misc/Examples/LayerExamples/ExLayerCustomProperty/ExLayerCustomProperty.js, scripts/Misc/Examples/LayerExamples/ExLayerWhiteToBlack/ExLayerWhiteToBlack.js, scripts/Misc/Examples/ListenerExamples/ListenerExamples.js, scripts/Misc/Examples/ListenerExamples/ExExportListener/ExExportListener.js, scripts/Misc/Examples/ListenerExamples/ExTransactionListener/ExTransactionListener.js, scripts/Misc/Examples/MathExamples/MathExamples.js, scripts/Misc/Examples/MathExamples/ExMathSpiral/ExMathSpiral.js, scripts/Misc/Examples/QtExamples/QtExamples.js, scripts/Misc/Examples/QtExamples/ExDirListing/ExDirListing.js, scripts/Misc/Examples/QtExamples/ExMainWindow/ExMainWindow.js, scripts/Misc/Examples/QtExamples/ExProcess/ExProcess.js, scripts/Misc/Examples/QtExamples/ExResizeWindow/ExResizeWindow.js, scripts/Misc/MiscBlock/MiscBlock.js, scripts/Misc/MiscBlock/BlockFixNames/BlockFixNames.js, scripts/Misc/MiscBlock/BlockListAttributes/BlockListAttributes.js, scripts/Misc/MiscBlock/BlockListExport/BlockListExport.js, scripts/Misc/MiscDevelopment/MiscDevelopment.js, scripts/Misc/MiscDevelopment/DevDebug/DevDebug.js, scripts/Misc/MiscDevelopment/EcmaScriptShell/EcmaScriptShell.js, scripts/Misc/MiscDraw/MiscDraw.js, scripts/Misc/MiscDraw/Counter/Counter.js, scripts/Misc/MiscDraw/Cross/Cross.js, scripts/Misc/MiscDraw/DrawBoundingBox/DrawBoundingBox.js, scripts/Misc/MiscDraw/LineBoxJoint/LineBoxJoint.js, scripts/Misc/MiscDraw/LineDove/LineDove.js, scripts/Misc/MiscDraw/LineRadicalAxis/LineRadicalAxis.js, scripts/Misc/MiscDraw/LineSimilarityAxes/LineSimilarityAxes.js, scripts/Misc/MiscDraw/PointPole/PointPole.js, scripts/Misc/MiscDraw/PointPowerCenter/PointPowerCenter.js, scripts/Misc/MiscDraw/XLineHorizontal/XLineHorizontal.js, scripts/Misc/MiscDraw/XLineVertical/XLineVertical.js, scripts/Misc/MiscIO/MiscIO.js, scripts/Misc/MiscIO/ImportPoints/ImportPoints.js, scripts/Misc/MiscIO/MolImport/MolImport.js, scripts/Misc/MiscModify/MiscModify.js, scripts/Misc/MiscModify/ArcChangeDirection/ArcChangeDirection.js, scripts/Misc/MiscModify/ChangeFontToArial/ChangeFontToArial.js, scripts/Misc/MiscModify/FlushBackLog/FlushBackLog.js, scripts/Misc/MiscModify/ReloadLinetypes/ReloadLinetypes.js, scripts/Misc/MiscModify/SplineToLine/SplineToLine.js, scripts/Misc/MiscSelect/MiscSelect.js, scripts/Misc/MiscSelect/SelectByHandle/SelectByHandle.js, scripts/Misc/Screencast/Screencast.js, scripts/Misc/Screencast/ScMirrored/ScMirrored.js, scripts/Misc/Screencast/ScPrepare/ScPrepare.js, scripts/Misc/Tutorials/Tutorials.js, scripts/Misc/Tutorials/CommandLineTools/CommandLineTools.js, scripts/Misc/Tutorials/CommandLineTools/CreatingDrawing/CreatingDrawing.js, scripts/Misc/Tutorials/CommandLineTools/ExPdfExport/ExPdfExport.js, scripts/Misc/Tutorials/CommandLineTools/ExSvgExport/ExSvgExport.js, scripts/Misc/Tutorials/MenusAndToolBars/MenusAndToolBars.js, scripts/Misc/Tutorials/PersistentWidgets/PersistentWidgets.js, :scripts/Cam/Cam.js, :scripts/Cam/CamExport/CamExport.js, :scripts/Cam/CamImport/CamImport.js, :scripts/Cam/CamSimulation/CamSimulation.js, :scripts/Cam/GerberImport/GerberImport.js, :scripts/Cam/ImportExport/GerberImporter/GerberImporter.js, :scripts/Cam/Widgets/TrialExpired/TrialExpired.js, scripts/Help/Help.js, scripts/Help/About/About.js, scripts/Help/BrowseUserManual/BrowseUserManual.js, scripts/Help/CheckForUpdates/CheckForUpdates.js, scripts/Help/FAQ/FAQ.js, scripts/Help/Forum/Forum.js, scripts/Help/ReportBug/ReportBug.js, scripts/Help/ReportTranslationError/ReportTranslationError.js, scripts/Help/ShowReadme/ShowReadme.js, scripts/Help/Website/Website.js, scripts/ImportExport/SvgImporter/SvgImporter.js, scripts/lib/hull/hull.js, scripts/lib/sprintf2/sprintf2.js, scripts/Navigation/DefaultNavigation/DefaultNavigation.js, scripts/Projection/Projection.js, scripts/Projection/IsometricProjection/IsometricProjection.js, scripts/Projection/IsometricProjection/IsoProject/IsoProject.js, scripts/Tools/MergeDrawings/MergeDrawings.js
+
+[Reset]
+VisibleInToolBar=true
+VisibleInMenu=true
+
+[File]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[Edit]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[View]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[Zoom]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[Layer]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[Block]
+VisibleInMatrixPanel=false
+VisibleInCadToolBar=false
+
+[Widgets]
+VisibleInMatrixPanel=false
+
+[BlockList]
+AlternatingRowColor=@Variant(\0\0\0\x7f\0\0\0\aRColor\0\x1\xff\xff\xe6\xe6\xeb\xeb\xfa\xfa\0\0\0\x2)
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CadToolBar]
+VerticalWhenFloating=true
+
+[LayerList]
+AlternatingRowColor=@Variant(\0\0\0\x7f\0\0\0\aRColor\0\x1\xff\xff\xe6\xe6\xeb\xeb\xfa\xfa\0\0\0\x2)
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LayerListPro]
+AlternatingRowColor=@Variant(\0\0\0\x7f\0\0\0\aRColor\0\x1\xff\xff\xe6\xe6\xeb\xeb\xfa\xfa\0\0\0\x2)
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[BitmapExport]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Extension=png
+Width=640
+Height=480
+Resolution=auto
+Margin=10
+Background=WhiteBackground
+
+[CloseFile]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ImportFile]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Path=/home/tomc/junk
+
+[NewFile]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OpenFile]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Path=/home/tomc/GitHub/Sudiball/sixF8
+
+[PdfExportPro]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PrintPro]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PrintCurrentView]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PrintPreviewPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Save]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SaveAs]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Path=/home/tomc/GitHub/Sudiball/sixF8
+
+[SvgImport]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Path=/home/tomc/GitHub/Sudiball/EMS_laser
+
+[AppPreferences]
+VisibleInMenu=true
+
+[Copy]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CopyWithReference]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Cut]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CutWithReference]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Delete]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DrawingPreferences]
+VisibleInMenu=true
+
+[Duplicate]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Esc]
+VisibleInMenu=true
+
+[Paste]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Rotation=0
+Scale=1
+FlipHorizontal=false
+FlipVertical=false
+ToCurrentLayer=false
+OverwriteLayers=false
+OverwriteBlocks=false
+
+[Redo]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Undo]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AntialiasingMode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CommandLineFocus]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+
+[DisplayDistanceAngle]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+
+[DraftMode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[IsometricGridLeft]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[IsometricGridOff]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[IsometricGridRight]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[IsometricGridTop]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LinetypeMode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OptionsToolBarFocus]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+
+[ToggleGrid]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AutoZoom]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PanZoom]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PreviousView]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[WindowZoom]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ZoomIn]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ZoomOut]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ZoomToSelection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Select]
+VisibleInCadToolBar=true
+
+[DeselectAll]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InvertSelection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectAll]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectContour]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectIntersectedEntities]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectLayerByEntity]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectRectangle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Arc]
+VisibleInCadToolBar=true
+
+[Arc2PA]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Arc2PH]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Arc2PL]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Arc2PR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Arc3P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ArcConcentric]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ArcConcentricThrough]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ArcCPA]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ArcTangential]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ArcTPR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle]
+VisibleInCadToolBar=true
+
+[Circle2P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle2PR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle2TP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle2TR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle3P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Circle3T]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleCD]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleConcentric]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleConcentricThrough]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleCP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleCR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleT2P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CircleTPR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Dimension]
+VisibleInCadToolBar=true
+
+[DimAligned]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimAngular]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimDiametric]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimHorizontal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimOrdinate]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimRadial]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimRegen]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+
+[DimRotated]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DimVertical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Leader]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Ellipse]
+VisibleInCadToolBar=true
+
+[EllipseArcCPPA]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseCPP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseDD]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseInscribedQuad]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseOffset]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseOffsetThrough]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EllipseRR]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Hatch]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Image]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Line]
+VisibleInCadToolBar=true
+
+[Line2P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineAngle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineBisector]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineFreehand]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineHorizontal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineOrthogonal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineOrthogonalTangent]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineParallel]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineParallelThrough]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineRelativeAngle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineTangent1]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineTangent2]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LineVertical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Point]
+VisibleInCadToolBar=true
+
+[Point1P]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Polyline]
+VisibleInCadToolBar=true
+
+[DrawPolyline]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Shape]
+VisibleInCadToolBar=true
+
+[ShapePolygonAFCP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShapePolygonAFPP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShapePolygonCP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShapePolygonPP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShapeRectanglePP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShapeRectangleSize]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Spline]
+VisibleInCadToolBar=true
+
+[SplineControlPoints]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Text]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Modify]
+VisibleInCadToolBar=true
+
+[AutoTrim]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Bevel]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[BreakOut]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[BreakOutGap]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[BreakOutManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Divide]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditHatch]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditText]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Explode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[FlipHorizontal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+
+[FlipVertical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+
+[Lengthen]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Amount=10
+
+[Mirror]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OffsetPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OffsetThroughPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Reverse]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+
+[Rotate]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Rotate2]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Round]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Scale]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Stretch]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ToBack]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ToFront]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Translate]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[TranslateRotate]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+Angle=30
+
+[Trim]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[TrimBoth]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Snap]
+VisibleInCadToolBar=false
+
+[LockRelativeZero]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RestrictAngleLength]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RestrictHorizontal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RestrictOff]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RestrictOrthogonal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RestrictVertical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SetRelativeZero]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapAuto]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapCenter]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapCoordinate]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapCoordinatePolar]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapDistance]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapDistanceManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapEnd]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapFree]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapGrid]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapIntersection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapIntersectionManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapMiddle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapMiddleManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapOnEntity]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapPerpendicular]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapReference]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapSelectionCenter]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapTangential]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapXManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SnapYManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Information]
+VisibleInCadToolBar=true
+AddToDrawing=false
+TextHeight=1
+
+[InfoAngle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoArcCircleArea]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoArea]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoDistanceEP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoDistancePP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoPosition]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoPositionPol]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoPositionPolRel]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InfoPositionRel]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AddLayerPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DeselectLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditLayerPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[HideAllLayers]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LockAllLayers]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RemoveLayerPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectLayerPro]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShowActiveLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShowAllLayers]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ToggleLayerVisibility]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[UnlockAllLayers]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AddBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CreateBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CreateLibraryItem]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[DeselectBlockReferences]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditFromReference]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditMainDrawing]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[HideAllBlocks]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[InsertBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RemoveBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RenameBlock]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectBlockReferences]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ShowAllBlocks]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ToggleBlockVisibility]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CloseAll]
+VisibleInMenu=true
+VisibleInToolBar=true
+
+[NextWindow]
+VisibleInMenu=true
+VisibleInToolBar=true
+
+[PreviousWindow]
+VisibleInMenu=true
+VisibleInToolBar=true
+
+[CommandLine]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PropertyEditor]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[StatusBar]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+Sizes=562, 479, 358, 239
+
+[Misc]
+VisibleInCadToolBar=false
+
+[ExAddBlock]
+VisibleInMenu=true
+
+[ExDrawColors]
+VisibleInMenu=true
+
+[ExText]
+VisibleInMenu=true
+
+[ExThreePoints]
+VisibleInMenu=true
+
+[ExDumpPolyline]
+VisibleInMenu=true
+
+[ExRegisterFileExporter]
+VisibleInMenu=true
+
+[ExRegisterFileImporter]
+VisibleInMenu=true
+
+[ExXmlExport]
+VisibleInMenu=true
+
+[ExXmlImport]
+VisibleInMenu=true
+
+[ExLayerCustomProperty]
+VisibleInMenu=true
+
+[ExLayerWhiteToBlack]
+VisibleInMenu=true
+
+[ExTransactionListener]
+VisibleInMenu=true
+
+[ExMathSpiral]
+VisibleInMenu=true
+
+[ExDirListing]
+VisibleInMenu=true
+
+[ExMainWindow]
+VisibleInMenu=true
+
+[ExProcess]
+VisibleInMenu=true
+
+[ExResizeWindow]
+VisibleInMenu=true
+
+[MiscBlock]
+VisibleInCadToolBar=true
+
+[BlockFixNames]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[BlockListAttributes]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[BlockListExport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MiscDevelopment]
+VisibleInCadToolBar=true
+
+[DevDebug]
+VisibleInMenu=false
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+
+[EcmaScriptShell]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MiscDraw]
+VisibleInCadToolBar=true
+
+[Counter]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[Cross]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[DrawBoundingBox]
+VisibleInMenu=true
+
+[LineBoxJoint]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[LineDove]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[LineRadicalAxis]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[LineSimilarityAxes]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[PointPole]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[PointPowerCenter]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[XLineHorizontal]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[XLineVertical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MiscIO]
+VisibleInCadToolBar=true
+
+[ImportPoints]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MolImport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MiscModify]
+VisibleInCadToolBar=true
+
+[ArcChangeDirection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[ChangeFontToArial]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[FlushBackLog]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=false
+
+[ReloadLinetypes]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[SplineToLine]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MiscSelect]
+VisibleInCadToolBar=true
+
+[SelectByHandle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[MenusAndToolBars]
+VisibleInMenu=true
+
+[PersistentWidgets]
+VisibleInMenu=true
+
+[Cam]
+VisibleInCadToolBar=false
+
+[CamExport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+Config=GCode
+Path=/home/tomc/GitHub/Sudiball/eightF4
+
+[CamImport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[CamSimulation]
+VisibleInMenu=true
+VisibleInCadToolBar=true
+VisibleInToolBar=true
+
+[GerberImport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[Attribute]
+VisibleInCadToolBar=true
+
+[AttributeDefinition]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[AttributeSynchronization]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[PurgeBlocks]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PointMN]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PointNP]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineAlongSegments]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineAppendNode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineAutoClose]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineDeleteNode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineDeleteNodesBetween]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineEquidistant]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineFromSegments]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineFromSelection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineInsertNode]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineSimplify]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineTrim]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Ring]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+VisibleInMatrixPanel=true
+
+[SplineFitPoints]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PasteAlongEntity]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SearchReplace]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SubstituteFonts]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[NewFromTemplate]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RevertFile]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SvgExport]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SvgExportAs]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CheckForProUpdates]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[InfoTotalLength]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AddSubLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[CreateLayerFromSelection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PurgeLayers]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PolylineEquidistantAlt]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[PurgeLayersAndBlocks]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[RegenerateHatchPattern]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[SplineToBezier]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+
+[Align]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+VisibleInMatrixPanel=true
+
+[AlignReferencePoints]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ClipToRectangle]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Duplicates]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+VisibleInMatrixPanel=true
+
+[SplitIntoEqualParts]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ZeroLengthDetection]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=false
+VisibleInMatrixPanel=true
+
+[IsoProjectCylindrical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[MatrixTransformation]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OrthoProjectCylindrical]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectPolygon]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectView]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[LockSnap]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AddView]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditView]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PickView]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RemoveView]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ClipboardDisplay]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectionFilter]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ViewList]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[FullScreen]
+VisibleInMenu=true
+VisibleInToolBar=true
+
+[About]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[BrowseUserManual]
+VisibleInMenu=true
+VisibleInToolBar=true
+
+[CheckForUpdates]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[FAQ]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[Forum]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[ReportBug]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[ReportTranslationError]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[ShowReadme]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[Website]
+VisibleInMenu=true
+VisibleInToolBar=false
+
+[Projection]
+VisibleInCadToolBar=true
+
+[IsoProject]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Trial]
+CAM=17
+DWG=2
+Polygon=2
+Pro%20Tools=2
+Triangulation=2
+
+[RecentFiles]
+Files=/tmp/mozilla_tomc0/EMS_FLOORPLAN.dxf, /home/tomc/GitHub/Sudiball/EMS_laser/sudigen.dxf, /home/tomc/GitHub/Sudiball/EMS_laser/sudigen_sagcad.dxf, /home/tomc/GitHub/Sudiball/EMS_laser/sudigen_sagcadx03837.dxf, /home/tomc/GitHub/Sudiball/EMS_laser/sudigen_plans.dxf, /home/tomc/GitHub/Sudiball/6inchF8/criterian_tube_holder.dxf, /home/tomc/GitHub/Sudiball/sixF8/classic_6in_tube_sudiball.dxf, /home/tomc/GitHub/Sudiball/sixF8/classic_6in_tube_sudiball_qcad.dxf, /home/tomc/GitHub/Sudiball/eightF4/sudigen.dxf, /home/tomc/GitHub/Sudiball/eightF4/layout2_plns.dxf
+
+[Appearance]
+Position.X=-9
+Position.Y=-8
+Width=1678
+Height=988
+DockappWindows="@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\xfc\x2\0\0\0\x1\xfb\0\0\0\x1c\0T\0o\0o\0l\0M\0\x61\0t\0r\0i\0x\0\x44\0o\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0\x94\0\xff\xff\xff\0\0\0\x1\0\0\0\xfa\0\0\x3\x1b\xfc\x2\0\0\0\n\xfc\0\0\0\x94\0\0\x1]\0\0\0\x91\0\xff\xff\xff\xfa\0\0\0\0\x1\0\0\0\x2\xfb\0\0\0\x1a\0L\0\x61\0y\0\x65\0r\0L\0i\0s\0t\0\x44\0o\0\x63\0k\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\x82\0\xff\xff\xff\xfb\0\0\0\x1a\0\x42\0l\0o\0\x63\0k\0L\0i\0s\0t\0\x44\0o\0\x63\0k\x1\0\0\x6N\0\0\x1\b\0\0\0\xd0\0\xff\xff\xff\xfb\0\0\0$\0L\0i\0\x62\0r\0\x61\0r\0y\0\x42\0r\0o\0w\0s\0\x65\0r\0\x44\0o\0\x63\0k\x2\0\0\x5\x64\0\0\x2\x93\0\0\x1,\0\0\x1X\xfb\0\0\0$\0P\0r\0o\0p\0\x65\0r\0t\0y\0\x45\0\x64\0i\0t\0o\0r\0\x44\0o\0\x63\0k\x2\0\0\x5\x64\0\0\0j\0\0\x1,\0\0\x2\x15\xfb\0\0\0&\0\x45\0\x63\0m\0\x61\0S\0\x63\0r\0i\0p\0t\0S\0h\0\x65\0l\0l\0\x44\0o\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0/\0\xff\xff\xfe\xfb\0\0\0\"\0\x43\0\x61\0m\0S\0i\0m\0u\0l\0\x61\0t\0i\0o\0n\0\x44\0o\0\x63\0k\x1\0\0\x1\xf7\0\0\0\x86\0\0\0\x85\0\0\0\x92\xfb\0\0\0(\0\x43\0l\0i\0p\0\x62\0o\0\x61\0r\0\x64\0\x44\0i\0s\0p\0l\0\x61\0y\0\x44\0o\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\xfb\0\0\0 \0L\0\x61\0y\0\x65\0r\0L\0i\0s\0t\0P\0r\0o\0\x44\0o\0\x63\0k\x1\0\0\0\x94\0\0\x1\x7f\0\0\0\0\0\0\0\0\xfb\0\0\0&\0S\0\x65\0l\0\x65\0\x63\0t\0i\0o\0n\0\x46\0i\0l\0t\0\x65\0r\0\x44\0o\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\xfb\0\0\0\x18\0V\0i\0\x65\0w\0L\0i\0s\0t\0\x44\0o\0\x63\0k\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\xfb\xff\xff\xff\xff\x1\0\0\x2\x83\0\0\x1,\0\0\x1,\0\xff\xff\xff\0\0\0\x3\0\0\x5\x10\0\0\0$\xfc\x1\0\0\0\x1\xfb\0\0\0\x1e\0\x43\0o\0m\0m\0\x61\0n\0\x64\0L\0i\0n\0\x65\0\x44\0o\0\x63\0k\x1\0\0\0V\0\0\x5\x10\0\0\0\x10\0\xff\xff\xff\0\0\x5\x10\0\0\x2\xf1\0\0\0\x1\0\0\0\x2\0\0\0\x1\0\0\0\x2\xfc\0\0\0\a\0\0\0\0\0\0\0\x1\0\0\0\x16\0\x43\0\x61\0\x64\0Q\0T\0o\0o\0l\0\x42\0\x61\0r\x3\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\x1c\0W\0i\0\x64\0g\0\x65\0t\0s\0T\0o\0o\0l\0\x42\0\x61\0r\x3\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\x16\0\0\0\x18\0R\0\x65\0s\0\x65\0t\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0\x46\0i\0l\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0>\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0\x45\0\x64\0i\0t\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\x1\x1\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0V\0i\0\x65\0w\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\x1\xe7\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0(\0I\0s\0o\0m\0\x65\0t\0r\0i\0\x63\0V\0i\0\x65\0w\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0S\0\x65\0l\0\x65\0\x63\0t\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0\x44\0r\0\x61\0w\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x14\0\x41\0r\0\x63\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0\x43\0i\0r\0\x63\0l\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0 \0\x44\0i\0m\0\x65\0n\0s\0i\0o\0n\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1c\0\x45\0l\0l\0i\0p\0s\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0L\0i\0n\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x18\0P\0o\0i\0n\0t\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1e\0P\0o\0l\0y\0l\0i\0n\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x18\0S\0h\0\x61\0p\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0S\0p\0l\0i\0n\0\x65\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0M\0o\0\x64\0i\0\x66\0y\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0S\0n\0\x61\0p\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0$\0I\0n\0\x66\0o\0r\0m\0\x61\0t\0i\0o\0n\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x18\0L\0\x61\0y\0\x65\0r\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x18\0\x42\0l\0o\0\x63\0k\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0W\0i\0n\0\x64\0o\0w\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\x1\0\0\0\xe\0O\0p\0t\0i\0o\0n\0s\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\a\0\0\0\x6\0P\0\x65\0n\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0 \0M\0i\0s\0\x63\0\x42\0l\0o\0\x63\0k\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0,\0M\0i\0s\0\x63\0\x44\0\x65\0v\0\x65\0l\0o\0p\0m\0\x65\0n\0t\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1e\0M\0i\0s\0\x63\0\x44\0r\0\x61\0w\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x1a\0M\0i\0s\0\x63\0I\0O\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\"\0M\0i\0s\0\x63\0M\0o\0\x64\0i\0\x66\0y\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\"\0M\0i\0s\0\x63\0S\0\x65\0l\0\x65\0\x63\0t\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\x3\0\0\0\x14\0\x43\0\x61\0m\0T\0o\0o\0l\0\x42\0\x61\0r\x1\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x16\0H\0\x65\0l\0p\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\"\0P\0r\0o\0j\0\x65\0\x63\0t\0i\0o\0n\0T\0o\0o\0l\0\x42\0\x61\0r\0\0\0\0\0\xff\xff\xff\xff\0\0\0\0\0\0\0\0\0\0\0\x2\0\0\0\0)"
+FullScreen=false
+StatusBar=true
+
+[CadToolMatrix]
+ClosedCategories=
+ListViewMode=false
+
+[InfoDistanceEE]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ExLayerAdd]
+VisibleInMenu=true
+
+[PdfExport]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Print]
+VisibleInMenu=true
+VisibleInToolBar=false
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[PrintPreview]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[Offset]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[OffsetThrough]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[AddLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[EditLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[RemoveLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[SelectLayer]
+VisibleInMenu=true
+VisibleInToolBar=true
+VisibleInCadToolBar=true
+VisibleInMatrixPanel=true
+
+[ScaleOptions]
+groupBox=DeleteOriginal
+NumberOfCopies=2
+FactorX=4
+KeepProportions=true
+FactorY=4
+FactorByMouse=false
+UseCurrentAttributes=false
+
+[TranslateOptions]
+Mode=DeleteOriginal
+NumberOfCopies=10
+UseCurrentAttributes=true
+
+Output fileName: '/home/tomc/GitHub/Sudiball/eightF4/layout2_plns.nc'
+  this.getSplitFullCircles() = false
+  this.getRampOn() = -1
+  this.getRampOff() = -1
+  this.getPathOrientation() = 0
+  this.getIncrementalXYZ() = false
+  this.getTolerance() = 0.0005
+writeLine: N10 G00 Z100
+Identifying paths...
+getContour: entityId: 67
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x3f69ac0"), center: RVector(5.5, 0, 0, true), radius: 1.125, startAngle: 3.14159, endAngle: 6.28319, startPoint: RVector(4.375, 1.37773e-16, 0, true), endPoint: RVector(6.625, -2.75546e-16, 0, true), sweep: 3.14159, reversed: false)
+  candidates found: 2
+  appending to: RVector(6.625, -2.75546e-16, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x39f1870"), center: RVector(0, 0, 0, true), radius: 6.625, startAngle: 6.28319, endAngle: 6.79764, startPoint: RVector(6.625, -1.62266e-15, 0, true), endPoint: RVector(5.76747, 3.25989, 0, true), sweep: 0.514453, reversed: false)
+  candidates found: 2
+  appending to: RVector(5.76747, 3.25989, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x39f1740"), vertices: (RVector(5.76748, 3.25988, 0, true), RVector(5.76517, 3.26517, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(5.76517, 3.26517, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x2ed73e0"), center: RVector(5.5, 3, 0, true), radius: 0.375, startAngle: 0.785398, endAngle: 2.35656, startPoint: RVector(5.76517, 3.26517, 0, true), endPoint: RVector(5.23474, 3.26507, 0, true), sweep: 1.57116, reversed: false)
+  candidates found: 2
+  appending to: RVector(5.23474, 3.26507, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x2ed22c0"), vertices: (RVector(5.23474, 3.26507, 0, true), RVector(5.23366, 3.26429, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(5.23366, 3.26429, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x38a9e70"), center: RVector(11, 0, 0, true), radius: 6.62618, startAngle: 2.62648, endAngle: 3.14159, startPoint: RVector(5.23366, 3.2643, 0, true), endPoint: RVector(4.37382, 8.11473e-16, 0, true), sweep: 0.515116, reversed: false)
+  candidates found: 1
+  appending to: RVector(4.37382, 8.11473e-16, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x38a6c50"), center: RVector(5.5, 0, 0, true), radius: 1.125, startAngle: 3.14159, endAngle: 6.28319, startPoint: RVector(4.375, 1.37773e-16, 0, true), endPoint: RVector(6.625, -2.75546e-16, 0, true), sweep: 3.14159, reversed: false)
+  candidates found: 1
+  prepending to: RVector(4.375, 1.37773e-16, 0, true)
+getContour: entityId: 73
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38a2740"), vertices: (RVector(-3.66819, 3.0303, 0, true), RVector(-3.77621, 2.66627, 0, true), RVector(-3.86967, 2.29485, 0, true), RVector(-3.94857, 1.91711, 0, true), RVector(-4.01294, 1.53413, 0, true), RVector(-4.06275, 1.14697, 0, true), RVector(-4.09803, 0.756699, 0, true), RVector(-4.11876, 0.364394, 0, true), RVector(-4.12496, -0.0288796, 0, true), RVector(-4.11663, -0.422051, 0, true), RVector(-4.09376, -0.814052, 0, true), RVector(-4.05637, -1.20381, 0, true), RVector(-4.00445, -1.59026, 0, true), RVector(-3.93802, -1.97233, 0, true), RVector(-3.85706, -2.34894, 0, true), RVector(-3.76159, -2.71904, 0, true), RVector(-3.6516, -3.08155, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  appending to: RVector(-3.6516, -3.08155, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x38a2800"), vertices: (RVector(-3.66819, 3.0303, 0, true), RVector(-3.77621, 2.66627, 0, true), RVector(-3.86967, 2.29485, 0, true), RVector(-3.94857, 1.91711, 0, true), RVector(-4.01294, 1.53413, 0, true), RVector(-4.06275, 1.14697, 0, true), RVector(-4.09803, 0.756699, 0, true), RVector(-4.11876, 0.364394, 0, true), RVector(-4.12496, -0.0288796, 0, true), RVector(-4.11663, -0.422051, 0, true), RVector(-4.09376, -0.814052, 0, true), RVector(-4.05637, -1.20381, 0, true), RVector(-4.00445, -1.59026, 0, true), RVector(-3.93802, -1.97233, 0, true), RVector(-3.85706, -2.34894, 0, true), RVector(-3.76159, -2.71904, 0, true), RVector(-3.6516, -3.08155, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 2
+  prepending to: RVector(-3.66819, 3.0303, 0, true)
+getContour: entityId: 74
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38ab3a0"), vertices: (RVector(-3.37317, -3.8133, 0, true), RVector(-3.30335, -3.96782, 0, true), RVector(-3.2309, -4.11882, 0, true), RVector(-3.15587, -4.26624, 0, true), RVector(-3.07831, -4.40998, 0, true), RVector(-2.99828, -4.54998, 0, true), RVector(-2.91584, -4.68615, 0, true), RVector(-2.83103, -4.81842, 0, true), RVector(-2.74392, -4.94671, 0, true), RVector(-2.65455, -5.07093, 0, true), RVector(-2.56298, -5.19102, 0, true), RVector(-2.46928, -5.30688, 0, true), RVector(-2.37348, -5.41846, 0, true), RVector(-2.27565, -5.52565, 0, true), RVector(-2.17584, -5.6284, 0, true), RVector(-2.07411, -5.72662, 0, true), RVector(-1.9705, -5.82022, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-1.9705, -5.82022, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38ab520"), vertices: (RVector(-1.9705, -5.82022, 0, true), RVector(-1.95952, -5.82978, 0, true), RVector(-1.94851, -5.83929, 0, true), RVector(-1.93749, -5.84874, 0, true), RVector(-1.92645, -5.85814, 0, true), RVector(-1.9154, -5.86748, 0, true), RVector(-1.90432, -5.87677, 0, true), RVector(-1.89323, -5.88601, 0, true), RVector(-1.88212, -5.89519, 0, true), RVector(-1.871, -5.90432, 0, true), RVector(-1.85986, -5.91339, 0, true), RVector(-1.8487, -5.92241, 0, true), RVector(-1.83752, -5.93138, 0, true), RVector(-1.82632, -5.94029, 0, true), RVector(-1.81511, -5.94915, 0, true), RVector(-1.80389, -5.95795, 0, true), RVector(-1.79264, -5.9667, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  appending to: RVector(-1.79264, -5.9667, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x389c3a0"), vertices: (RVector(-3.37317, -3.8133, 0, true), RVector(-3.30335, -3.96782, 0, true), RVector(-3.2309, -4.11882, 0, true), RVector(-3.15587, -4.26624, 0, true), RVector(-3.07831, -4.40998, 0, true), RVector(-2.99828, -4.54998, 0, true), RVector(-2.91584, -4.68615, 0, true), RVector(-2.83103, -4.81842, 0, true), RVector(-2.74392, -4.94671, 0, true), RVector(-2.65455, -5.07093, 0, true), RVector(-2.56298, -5.19102, 0, true), RVector(-2.46928, -5.30688, 0, true), RVector(-2.37348, -5.41846, 0, true), RVector(-2.27565, -5.52565, 0, true), RVector(-2.17584, -5.6284, 0, true), RVector(-2.07411, -5.72662, 0, true), RVector(-1.9705, -5.82022, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(-3.37317, -3.8133, 0, true)
+getContour: entityId: 76
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x389c6a0"), vertices: (RVector(1.78934, -5.96925, 0, true), RVector(1.90678, -5.87471, 0, true), RVector(2.02209, -5.77441, 0, true), RVector(2.13518, -5.66842, 0, true), RVector(2.24598, -5.55687, 0, true), RVector(2.35442, -5.43986, 0, true), RVector(2.46042, -5.31748, 0, true), RVector(2.56391, -5.18984, 0, true), RVector(2.66481, -5.05703, 0, true), RVector(2.76304, -4.91917, 0, true), RVector(2.85853, -4.77636, 0, true), RVector(2.9512, -4.62869, 0, true), RVector(3.04099, -4.47628, 0, true), RVector(3.12781, -4.31921, 0, true), RVector(3.21159, -4.1576, 0, true), RVector(3.29225, -3.99155, 0, true), RVector(3.36972, -3.82115, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(3.36972, -3.82115, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x389c880"), vertices: (RVector(3.36972, -3.82115, 0, true), RVector(3.38084, -3.79602, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(3.38084, -3.79602, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389ca60"), center: RVector(3.26624, -3.7461, 0, true), radius: 0.125, startAngle: 5.87242, endAngle: 6.83083, startPoint: RVector(3.38084, -3.79601, 0, true), endPoint: RVector(3.37296, -3.68101, 0, true), sweep: 0.958413, reversed: false)
+  candidates found: 2
+  appending to: RVector(3.37296, -3.68101, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389cc80"), center: RVector(3.48712, -3.63011, 0, true), radius: 0.125, startAngle: 3.56107, endAngle: 2.40157, startPoint: RVector(3.37296, -3.68102, 0, true), endPoint: RVector(3.39481, -3.54582, 0, true), sweep: -1.15949, reversed: true)
+  candidates found: 2
+  appending to: RVector(3.39481, -3.54582, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x389cec0"), vertices: (RVector(3.39481, -3.54582, 0, true), RVector(3.63521, -3.29986, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(3.63521, -3.29986, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389d0a0"), center: RVector(3.53377, -3.2267, 0, true), radius: 0.125, startAngle: 5.65759, endAngle: 6.72592, startPoint: RVector(3.6351, -3.2999, 0, true), endPoint: RVector(3.64672, -3.17315, 0, true), sweep: 1.06833, reversed: false)
+  candidates found: 2
+  appending to: RVector(3.64672, -3.17315, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389d3d0"), center: RVector(3.79838, -3.13547, 0, true), radius: 0.15625, startAngle: 3.38569, endAngle: 2.80363, startPoint: RVector(3.64676, -3.17323, 0, true), endPoint: RVector(3.65097, -3.08366, 0, true), sweep: -0.582067, reversed: true)
+  candidates found: 2
+  appending to: RVector(3.65097, -3.08366, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x389d630"), vertices: (RVector(1.78934, -5.96925, 0, true), RVector(1.90678, -5.87471, 0, true), RVector(2.02209, -5.77441, 0, true), RVector(2.13518, -5.66842, 0, true), RVector(2.24598, -5.55687, 0, true), RVector(2.35442, -5.43986, 0, true), RVector(2.46042, -5.31748, 0, true), RVector(2.56391, -5.18984, 0, true), RVector(2.66481, -5.05703, 0, true), RVector(2.76304, -4.91917, 0, true), RVector(2.85853, -4.77636, 0, true), RVector(2.9512, -4.62869, 0, true), RVector(3.04099, -4.47628, 0, true), RVector(3.12781, -4.31921, 0, true), RVector(3.21159, -4.1576, 0, true), RVector(3.29225, -3.99155, 0, true), RVector(3.36972, -3.82115, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(1.78934, -5.96925, 0, true)
+getContour: entityId: 77
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x389d9d0"), vertices: (RVector(3.64336, -3.10661, 0, true), RVector(3.75821, -2.73108, 0, true), RVector(3.85743, -2.34743, 0, true), RVector(3.94102, -1.95685, 0, true), RVector(4.009, -1.56054, 0, true), RVector(4.06136, -1.15969, 0, true), RVector(4.09812, -0.755491, 0, true), RVector(4.11928, -0.349128, 0, true), RVector(4.12484, 0.058206, 0, true), RVector(4.11482, 0.46532, 0, true), RVector(4.08922, 0.871024, 0, true), RVector(4.04805, 1.27413, 0, true), RVector(3.99131, 1.67344, 0, true), RVector(3.91901, 2.06777, 0, true), RVector(3.83115, 2.45592, 0, true), RVector(3.72775, 2.83671, 0, true), RVector(3.60881, 3.20895, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  appending to: RVector(3.60881, 3.20895, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x389da90"), vertices: (RVector(3.64336, -3.10661, 0, true), RVector(3.75821, -2.73108, 0, true), RVector(3.85743, -2.34743, 0, true), RVector(3.94102, -1.95685, 0, true), RVector(4.009, -1.56054, 0, true), RVector(4.06136, -1.15969, 0, true), RVector(4.09812, -0.755491, 0, true), RVector(4.11928, -0.349128, 0, true), RVector(4.12484, 0.058206, 0, true), RVector(4.11482, 0.46532, 0, true), RVector(4.08922, 0.871024, 0, true), RVector(4.04805, 1.27413, 0, true), RVector(3.99131, 1.67344, 0, true), RVector(3.91901, 2.06777, 0, true), RVector(3.83115, 2.45592, 0, true), RVector(3.72775, 2.83671, 0, true), RVector(3.60881, 3.20895, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(3.64336, -3.10661, 0, true)
+getContour: entityId: 79
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x389dc70"), vertices: (RVector(-1.7933, -5.96618, 0, true), RVector(1.79346, -5.96618, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(1.79346, -5.96618, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x389dd30"), vertices: (RVector(-1.7933, -5.96618, 0, true), RVector(1.79346, -5.96618, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  prepending to: RVector(-1.7933, -5.96618, 0, true)
+getContour: entityId: 80
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389df10"), center: RVector(-3.90897, -3.10816, 0, true), radius: 0.254707, startAngle: 24.3473, endAngle: 25.2711, startPoint: RVector(-3.72886, -3.28827, 0, true), endPoint: RVector(-3.6567, -3.07302, 0, true), sweep: 0.923803, reversed: false)
+  candidates found: 1
+  appending to: RVector(-3.6567, -3.07302, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x389dfe0"), center: RVector(-3.90897, -3.10816, 0, true), radius: 0.254707, startAngle: 24.3473, endAngle: 25.2711, startPoint: RVector(-3.72886, -3.28827, 0, true), endPoint: RVector(-3.6567, -3.07302, 0, true), sweep: 0.923803, reversed: false)
+  candidates found: 1
+  prepending to: RVector(-3.72886, -3.28827, 0, true)
+getContour: entityId: 87
+getContour: entityId: 44
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389e220"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 2.39524, endAngle: 5.45874, startPoint: RVector(-5.87335, 5.43174, 0, true), endPoint: RVector(5.43174, -5.87335, 0, true), sweep: 3.06351, reversed: false)
+  candidates found: 2
+  appending to: RVector(5.43174, -5.87335, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x389e530"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 2.39524, endAngle: 5.45874, startPoint: RVector(-5.87335, 5.43174, 0, true), endPoint: RVector(5.43174, -5.87335, 0, true), sweep: 3.06351, reversed: false)
+  candidates found: 1
+  prepending to: RVector(-5.87335, 5.43174, 0, true)
+getContour: entityId: 45
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x389e930"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 5.53683, endAngle: 7.02954, startPoint: RVector(5.87335, -5.43174, 0, true), endPoint: RVector(5.87335, 5.43174, 0, true), sweep: 1.49271, reversed: false)
+  candidates found: 2
+  appending to: RVector(5.87335, 5.43174, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x389e6d0"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 5.53683, endAngle: 7.02954, startPoint: RVector(5.87335, -5.43174, 0, true), endPoint: RVector(5.87335, 5.43174, 0, true), sweep: 1.49271, reversed: false)
+  candidates found: 2
+  prepending to: RVector(5.87335, -5.43174, 0, true)
+getContour: entityId: 46
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dc8d0"), vertices: (RVector(-3.69115, -3.24921, 0, true), RVector(-4.81738, -4.37544, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-4.81738, -4.37544, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dcb90"), vertices: (RVector(-4.81738, -4.37544, 0, true), RVector(-4.37544, -4.81738, 0, true), RVector(-3.37261, -3.81456, 0, true)) ,  bulges: (0, 0, 0) ,  start widths: (0, 0, 0) ,  end widths: (0, 0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-3.37261, -3.81456, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x38dcc50"), vertices: (RVector(-3.69115, -3.24921, 0, true), RVector(-4.81738, -4.37544, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(-3.69115, -3.24921, 0, true)
+getContour: entityId: 48
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dd080"), vertices: (RVector(5.87784, -5.43589, 0, true), RVector(4.81756, -4.37562, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(4.81756, -4.37562, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dd300"), vertices: (RVector(4.81756, -4.37562, 0, true), RVector(4.37562, -4.81756, 0, true), RVector(5.43589, -5.87784, 0, true)) ,  bulges: (0, 0, 0) ,  start widths: (0, 0, 0) ,  end widths: (0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  appending to: RVector(5.43589, -5.87784, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x38dd3c0"), vertices: (RVector(5.87784, -5.43589, 0, true), RVector(4.81756, -4.37562, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(5.87784, -5.43589, 0, true)
+getContour: entityId: 50
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x48f2350"), center: RVector(0, -7.25, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3a74ad0"), center: RVector(0, -7.25, 0, true), radius: 0.125)
+getContour: entityId: 51
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x4f93290"), center: RVector(-3.625, -6.27868, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3a08d20"), center: RVector(-3.625, -6.27868, 0, true), radius: 0.125)
+getContour: entityId: 52
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x3a714f0"), center: RVector(-6.27868, -3.625, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x2ef1680"), center: RVector(-6.27868, -3.625, 0, true), radius: 0.125)
+getContour: entityId: 53
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x4f776d0"), center: RVector(-7.25, 0, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3a6f710"), center: RVector(-7.25, 0, 0, true), radius: 0.125)
+getContour: entityId: 54
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x3d04dc0"), center: RVector(-6.27868, 3.625, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3a3dd10"), center: RVector(-6.27868, 3.625, 0, true), radius: 0.125)
+getContour: entityId: 55
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x3a4ee80"), center: RVector(3.625, -6.27868, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3d508e0"), center: RVector(3.625, -6.27868, 0, true), radius: 0.125)
+getContour: entityId: 56
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x3a48350"), center: RVector(6.27868, -3.625, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x3a3a750"), center: RVector(6.27868, -3.625, 0, true), radius: 0.125)
+getContour: entityId: 57
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x389d2c0"), center: RVector(7.25, 0, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x38dfbd0"), center: RVector(7.25, 0, 0, true), radius: 0.125)
+getContour: entityId: 58
+appendToContour: prepend: false
+  shape: RCircle(RShape(address: "0x38dfd30"), center: RVector(6.27868, 3.625, 0, true), radius: 0.125)
+appendToContour: prepend: true
+  shape: RCircle(RShape(address: "0x38dfde0"), center: RVector(6.27868, 3.625, 0, true), radius: 0.125)
+getContour: entityId: 59
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dffd0"), vertices: (RVector(-5.87783, 5.43588, 0, true), RVector(-5.43588, 5.87783, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-5.43588, 5.87783, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x38e0110"), vertices: (RVector(-5.87783, 5.43588, 0, true), RVector(-5.43588, 5.87783, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(-5.87783, 5.43588, 0, true)
+getContour: entityId: 60
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38e0290"), vertices: (RVector(5.87783, 5.43588, 0, true), RVector(5.43588, 4.99394, 0, true), RVector(4.99394, 5.43588, 0, true), RVector(4.552, 5.87783, 0, true), RVector(3.66812, 5.87783, 0, true), RVector(4.11006, 5.43588, 0, true), RVector(4.552, 4.99394, 0, true), RVector(4.99394, 4.552, 0, true), RVector(4.552, 4.11006, 0, true), RVector(4.11006, 4.552, 0, true), RVector(3.66812, 4.99394, 0, true), RVector(3.66812, 4.11006, 0, true), RVector(4.11006, 3.66812, 0, true), RVector(3.66812, 3.22617, 0, true), RVector(3.62022, 3.17828, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  appending to: RVector(3.62022, 3.17828, 0, true)
+appendToContour: prepend: true
+  shape: 
+RPolyline(RShape(address: "0x38e0350"), vertices: (RVector(5.87783, 5.43588, 0, true), RVector(5.43588, 4.99394, 0, true), RVector(4.99394, 5.43588, 0, true), RVector(4.552, 5.87783, 0, true), RVector(3.66812, 5.87783, 0, true), RVector(4.11006, 5.43588, 0, true), RVector(4.552, 4.99394, 0, true), RVector(4.99394, 4.552, 0, true), RVector(4.552, 4.11006, 0, true), RVector(4.11006, 4.552, 0, true), RVector(3.66812, 4.99394, 0, true), RVector(3.66812, 4.11006, 0, true), RVector(4.11006, 3.66812, 0, true), RVector(3.66812, 3.22617, 0, true), RVector(3.62022, 3.17828, 0, true)) ,  bulges: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  start widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  end widths: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) ,  closed: false, )
+  candidates found: 1
+  prepending to: RVector(5.87783, 5.43588, 0, true)
+getContour: entityId: 61
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x38e0530"), center: RVector(-5.5, 0, 0, true), radius: 1.125, startAngle: 3.14159, endAngle: 6.28319, startPoint: RVector(-6.625, 1.37773e-16, 0, true), endPoint: RVector(-4.375, -2.75546e-16, 0, true), sweep: 3.14159, reversed: false)
+  candidates found: 1
+  appending to: RVector(-4.375, -2.75546e-16, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x38e0600"), center: RVector(-5.5, 0, 0, true), radius: 1.125, startAngle: 3.14159, endAngle: 6.28319, startPoint: RVector(-6.625, 1.37773e-16, 0, true), endPoint: RVector(-4.375, -2.75546e-16, 0, true), sweep: 3.14159, reversed: false)
+  candidates found: 2
+  prepending to: RVector(-6.625, 1.37773e-16, 0, true)
+getContour: entityId: 63
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x38dd560"), center: RVector(-11, 0, 0, true), radius: 6.62618, startAngle: 0, endAngle: 0.515115, startPoint: RVector(-4.37382, 0, 0, true), endPoint: RVector(-5.23366, 3.26429, 0, true), sweep: 0.515115, reversed: false)
+  candidates found: 2
+  appending to: RVector(-5.23366, 3.26429, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38dd870"), vertices: (RVector(-5.23366, 3.26429, 0, true), RVector(-5.23474, 3.26507, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-5.23474, 3.26507, 0, true)
+appendToContour: prepend: false
+  shape: RArc(RShape(address: "0x38ddb40"), center: RVector(-5.5, 3, 0, true), radius: 0.375, startAngle: 0.785025, endAngle: 2.35619, startPoint: RVector(-5.23474, 3.26507, 0, true), endPoint: RVector(-5.76517, 3.26517, 0, true), sweep: 1.57117, reversed: false)
+  candidates found: 2
+  appending to: RVector(-5.76517, 3.26517, 0, true)
+appendToContour: prepend: false
+  shape: 
+RPolyline(RShape(address: "0x38ddd60"), vertices: (RVector(-5.76517, 3.26517, 0, true), RVector(-5.76748, 3.25988, 0, true)) ,  bulges: (0, 0) ,  start widths: (0, 0) ,  end widths: (0, 0) ,  closed: false, )
+  candidates found: 2
+  appending to: RVector(-5.76748, 3.25988, 0, true)
+appendToContour: prepend: true
+  shape: RArc(RShape(address: "0x38dde80"), center: RVector(-11, 0, 0, true), radius: 6.62618, startAngle: 0, endAngle: 0.515115, startPoint: RVector(-4.37382, 0, 0, true), endPoint: RVector(-5.23366, 3.26429, 0, true), sweep: 0.515115, reversed: false)
+  candidates found: 1
+  prepending to: RVector(-4.37382, 0, 0, true)
+Paths identified: 25
+  open: 25
+  closed: 0
+Indexing path entry points...
+Entry points indexed for 10 of 25 paths
+Entry points indexed for 20 of 25 paths
+Processing paths...
+  path with one entity found
+exportContourEntity: RPointEntity(0x3a6f910)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+writeLine: N20 Z2 F200
+writeLine: N30 X0 Y0
+writeLine: N40 G01 Z-2
+writeLine: N50 G00 Z2
+  open path found
+exportContourEntity: RArcEntity(0x46e3390)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.37382, 8.11473e-16, 0, true)
+    endPoint: RVector(5.23366, 3.2643, 0, true)
+    exporting: RArc(RShape(address: "0x46e3400"), center: RVector(11, 0, 0, true), radius: 6.62618, startAngle: 3.14159, endAngle: 2.62648, startPoint: RVector(4.37382, 8.11473e-16, 0, true), endPoint: RVector(5.23366, 3.2643, 0, true), sweep: -0.515116, reversed: true)
+writeLine: N60 X4.374
+writeLine: N70 G01 Z-2
+writeLine: N80 G02 X5.234 Y3.264 I6.626 J-0
+exportContourEntity: RPolylineEntity(0x46e3910)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e1f00)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.23366, 3.26429, 0, true)
+    endPoint: RVector(5.23474, 3.26507, 0, true)
+    exporting: RLine(RShape(address: "0x46e1f70"), startPoint: RVector(5.23366, 3.26429, 0, true), endPoint: RVector(5.23474, 3.26507, 0, true))
+writeLine: N90 G01 X5.235 Y3.265
+exportContourEntity: RArcEntity(0x46e3e90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.23474, 3.26507, 0, true)
+    endPoint: RVector(5.76517, 3.26517, 0, true)
+    exporting: RArc(RShape(address: "0x46e3f00"), center: RVector(5.5, 3, 0, true), radius: 0.375, startAngle: 2.35656, endAngle: 0.785398, startPoint: RVector(5.23474, 3.26507, 0, true), endPoint: RVector(5.76517, 3.26517, 0, true), sweep: -1.57116, reversed: true)
+writeLine: N100 G02 X5.765 Y3.265 I0.265 J-0.265
+exportContourEntity: RPolylineEntity(0x46e4200)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e44d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.76517, 3.26517, 0, true)
+    endPoint: RVector(5.76748, 3.25988, 0, true)
+    exporting: RLine(RShape(address: "0x46e4540"), startPoint: RVector(5.76517, 3.26517, 0, true), endPoint: RVector(5.76748, 3.25988, 0, true))
+writeLine: N110 G01 X5.767 Y3.26
+exportContourEntity: RArcEntity(0x46e47f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.76747, 3.25989, 0, true)
+    endPoint: RVector(6.625, -1.62266e-15, 0, true)
+    exporting: RArc(RShape(address: "0x46e4860"), center: RVector(0, 0, 0, true), radius: 6.625, startAngle: 6.79764, endAngle: 6.28319, startPoint: RVector(5.76747, 3.25989, 0, true), endPoint: RVector(6.625, -1.62266e-15, 0, true), sweep: -0.514453, reversed: true)
+writeLine: N120 G02 X6.625 Y-0 I-5.767 J-3.26
+exportContourEntity: RArcEntity(0x46e4ac0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(6.625, -2.75546e-16, 0, true)
+    endPoint: RVector(4.375, 1.37773e-16, 0, true)
+    exporting: RArc(RShape(address: "0x46e4b30"), center: RVector(5.5, 0, 0, true), radius: 1.125, startAngle: 6.28319, endAngle: 3.14159, startPoint: RVector(6.625, -2.75546e-16, 0, true), endPoint: RVector(4.375, 1.37773e-16, 0, true), sweep: -3.14159, reversed: true)
+writeLine: N130 G02 X4.375 Y0 I-1.125 J0
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46e3ad0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(7.125, 0, 0, true)
+    endPoint: RVector(7.375, 0, 0, true)
+    exporting: RCircle(RShape(address: "0x46e3b40"), center: RVector(7.25, 0, 0, true), radius: 0.125)
+writeLine: N140 G00 Z2
+writeLine: N150 X7.375
+writeLine: N160 G01 Z-2
+writeLine: N170 G03 X7.375 Y-0 I-0.125 J0
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46e2080)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(6.15368, -3.625, 0, true)
+    endPoint: RVector(6.40368, -3.625, 0, true)
+    exporting: RCircle(RShape(address: "0x46e20f0"), center: RVector(6.27868, -3.625, 0, true), radius: 0.125)
+writeLine: N180 G00 Z2
+writeLine: N190 X6.404 Y-3.625
+writeLine: N200 G01 Z-2
+writeLine: N210 G03 X6.404 Y-3.625 I-0.125 J0
+  path with one entity found
+exportContourEntity: RArcEntity(0x46e5c90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.87335, -5.43174, 0, true)
+    endPoint: RVector(5.87335, 5.43174, 0, true)
+    exporting: RArc(RShape(address: "0x46e5d00"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 5.53683, endAngle: 7.02954, startPoint: RVector(5.87335, -5.43174, 0, true), endPoint: RVector(5.87335, 5.43174, 0, true), sweep: 1.49271, reversed: false)
+writeLine: N220 G00 Z2
+writeLine: N230 X5.873 Y-5.432
+writeLine: N240 G01 Z-2
+writeLine: N250 G03 X5.873 Y5.432 I-5.873 J5.432
+  path with one entity found
+exportContourEntity: RPolylineEntity(0x46e4d30)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e4df0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.87783, 5.43588, 0, true)
+    endPoint: RVector(5.43588, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46e4e60"), startPoint: RVector(5.87783, 5.43588, 0, true), endPoint: RVector(5.43588, 4.99394, 0, true))
+writeLine: N260 G00 Z2
+writeLine: N270 X5.878 Y5.436
+writeLine: N280 G01 Z-2
+writeLine: N290 X5.436 Y4.994
+exportContourEntity: RLineEntity(0x46e68e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.43588, 4.99394, 0, true)
+    endPoint: RVector(4.99394, 5.43588, 0, true)
+    exporting: RLine(RShape(address: "0x46e6950"), startPoint: RVector(5.43588, 4.99394, 0, true), endPoint: RVector(4.99394, 5.43588, 0, true))
+writeLine: N300 X4.994 Y5.436
+exportContourEntity: RLineEntity(0x46e5540)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.99394, 5.43588, 0, true)
+    endPoint: RVector(4.552, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46e55b0"), startPoint: RVector(4.99394, 5.43588, 0, true), endPoint: RVector(4.552, 5.87783, 0, true))
+writeLine: N310 X4.552 Y5.878
+exportContourEntity: RLineEntity(0x46e5130)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.552, 5.87783, 0, true)
+    endPoint: RVector(3.66812, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46e51a0"), startPoint: RVector(4.552, 5.87783, 0, true), endPoint: RVector(3.66812, 5.87783, 0, true))
+writeLine: N320 X3.668
+exportContourEntity: RLineEntity(0x46e5610)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.66812, 5.87783, 0, true)
+    endPoint: RVector(4.11006, 5.43588, 0, true)
+    exporting: RLine(RShape(address: "0x46e5680"), startPoint: RVector(3.66812, 5.87783, 0, true), endPoint: RVector(4.11006, 5.43588, 0, true))
+writeLine: N330 X4.11 Y5.436
+exportContourEntity: RLineEntity(0x46e37d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.11006, 5.43588, 0, true)
+    endPoint: RVector(4.552, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46e3840"), startPoint: RVector(4.11006, 5.43588, 0, true), endPoint: RVector(4.552, 4.99394, 0, true))
+writeLine: N340 X4.552 Y4.994
+exportContourEntity: RLineEntity(0x46d8df0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.552, 4.99394, 0, true)
+    endPoint: RVector(4.99394, 4.552, 0, true)
+    exporting: RLine(RShape(address: "0x46d8e60"), startPoint: RVector(4.552, 4.99394, 0, true), endPoint: RVector(4.99394, 4.552, 0, true))
+writeLine: N350 X4.994 Y4.552
+exportContourEntity: RLineEntity(0x46d7ca0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.99394, 4.552, 0, true)
+    endPoint: RVector(4.552, 4.11006, 0, true)
+    exporting: RLine(RShape(address: "0x46d7d10"), startPoint: RVector(4.99394, 4.552, 0, true), endPoint: RVector(4.552, 4.11006, 0, true))
+writeLine: N360 X4.552 Y4.11
+exportContourEntity: RLineEntity(0x46d7f10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.552, 4.11006, 0, true)
+    endPoint: RVector(4.11006, 4.552, 0, true)
+    exporting: RLine(RShape(address: "0x46d7f80"), startPoint: RVector(4.552, 4.11006, 0, true), endPoint: RVector(4.11006, 4.552, 0, true))
+writeLine: N370 X4.11 Y4.552
+exportContourEntity: RLineEntity(0x46d8250)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.11006, 4.552, 0, true)
+    endPoint: RVector(3.66812, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46d82c0"), startPoint: RVector(4.11006, 4.552, 0, true), endPoint: RVector(3.66812, 4.99394, 0, true))
+writeLine: N380 X3.668 Y4.994
+exportContourEntity: RLineEntity(0x46d8640)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.66812, 4.99394, 0, true)
+    endPoint: RVector(3.66812, 4.11006, 0, true)
+    exporting: RLine(RShape(address: "0x46d86b0"), startPoint: RVector(3.66812, 4.99394, 0, true), endPoint: RVector(3.66812, 4.11006, 0, true))
+writeLine: N390 Y4.11
+exportContourEntity: RLineEntity(0x46db090)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.66812, 4.11006, 0, true)
+    endPoint: RVector(4.11006, 3.66812, 0, true)
+    exporting: RLine(RShape(address: "0x46db100"), startPoint: RVector(3.66812, 4.11006, 0, true), endPoint: RVector(4.11006, 3.66812, 0, true))
+writeLine: N400 X4.11 Y3.668
+exportContourEntity: RLineEntity(0x46df5e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.11006, 3.66812, 0, true)
+    endPoint: RVector(3.66812, 3.22617, 0, true)
+    exporting: RLine(RShape(address: "0x46df650"), startPoint: RVector(4.11006, 3.66812, 0, true), endPoint: RVector(3.66812, 3.22617, 0, true))
+writeLine: N410 X3.668 Y3.226
+exportContourEntity: RLineEntity(0x46d8f60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.66812, 3.22617, 0, true)
+    endPoint: RVector(3.62022, 3.17828, 0, true)
+    exporting: RLine(RShape(address: "0x46d8fd0"), startPoint: RVector(3.66812, 3.22617, 0, true), endPoint: RVector(3.62022, 3.17828, 0, true))
+writeLine: N420 X3.62 Y3.178
+  path with one entity found
+exportContourEntity: RCircleEntity(0x189d3e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(6.15368, 3.625, 0, true)
+    endPoint: RVector(6.40368, 3.625, 0, true)
+    exporting: RCircle(RShape(address: "0x189d450"), center: RVector(6.27868, 3.625, 0, true), radius: 0.125)
+writeLine: N430 G00 Z2
+writeLine: N440 X6.404 Y3.625
+writeLine: N450 G01 Z-2
+writeLine: N460 G03 X6.404 Y3.625 I-0.125 J0
+  open path found
+exportContourEntity: RArcEntity(0x46d96e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.65097, -3.08366, 0, true)
+    endPoint: RVector(3.64676, -3.17323, 0, true)
+    exporting: RArc(RShape(address: "0x46d9750"), center: RVector(3.79838, -3.13547, 0, true), radius: 0.15625, startAngle: 2.80363, endAngle: 3.38569, startPoint: RVector(3.65097, -3.08366, 0, true), endPoint: RVector(3.64676, -3.17323, 0, true), sweep: 0.582067, reversed: false)
+writeLine: N470 G00 Z2
+writeLine: N480 X3.651 Y-3.084
+writeLine: N490 G01 Z-2
+writeLine: N500 G03 X3.647 Y-3.173 I0.147 J-0.052
+exportContourEntity: RArcEntity(0x46d99f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.64672, -3.17315, 0, true)
+    endPoint: RVector(3.6351, -3.2999, 0, true)
+    exporting: RArc(RShape(address: "0x46d9a60"), center: RVector(3.53377, -3.2267, 0, true), radius: 0.125, startAngle: 6.72592, endAngle: 5.65759, startPoint: RVector(3.64672, -3.17315, 0, true), endPoint: RVector(3.6351, -3.2999, 0, true), sweep: -1.06833, reversed: true)
+writeLine: N510 G02 X3.635 Y-3.3 I-0.113 J-0.053
+exportContourEntity: RPolylineEntity(0x46d9d00)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46da4d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.63521, -3.29986, 0, true)
+    endPoint: RVector(3.39481, -3.54582, 0, true)
+    exporting: RLine(RShape(address: "0x46da540"), startPoint: RVector(3.63521, -3.29986, 0, true), endPoint: RVector(3.39481, -3.54582, 0, true))
+writeLine: N520 G01 X3.395 Y-3.546
+exportContourEntity: RArcEntity(0x46da970)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.39481, -3.54582, 0, true)
+    endPoint: RVector(3.37296, -3.68102, 0, true)
+    exporting: RArc(RShape(address: "0x46da9e0"), center: RVector(3.48712, -3.63011, 0, true), radius: 0.125, startAngle: 2.40157, endAngle: 3.56107, startPoint: RVector(3.39481, -3.54582, 0, true), endPoint: RVector(3.37296, -3.68102, 0, true), sweep: 1.15949, reversed: false)
+writeLine: N530 G03 X3.373 Y-3.681 I0.092 J-0.084
+exportContourEntity: RArcEntity(0x46dac80)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.37296, -3.68101, 0, true)
+    endPoint: RVector(3.38084, -3.79601, 0, true)
+    exporting: RArc(RShape(address: "0x46dacf0"), center: RVector(3.26624, -3.7461, 0, true), radius: 0.125, startAngle: 6.83083, endAngle: 5.87242, startPoint: RVector(3.37296, -3.68101, 0, true), endPoint: RVector(3.38084, -3.79601, 0, true), sweep: -0.958413, reversed: true)
+writeLine: N540 G02 X3.381 Y-3.796 I-0.107 J-0.065
+exportContourEntity: RPolylineEntity(0x46e6250)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e6470)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.38084, -3.79602, 0, true)
+    endPoint: RVector(3.36972, -3.82115, 0, true)
+    exporting: RLine(RShape(address: "0x46e64e0"), startPoint: RVector(3.38084, -3.79602, 0, true), endPoint: RVector(3.36972, -3.82115, 0, true))
+writeLine: N550 G01 X3.37 Y-3.821
+exportContourEntity: RPolylineEntity(0x46d8b10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46dbbd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.36972, -3.82115, 0, true)
+    endPoint: RVector(3.29225, -3.99155, 0, true)
+    exporting: RLine(RShape(address: "0x46dbc40"), startPoint: RVector(3.36972, -3.82115, 0, true), endPoint: RVector(3.29225, -3.99155, 0, true))
+writeLine: N560 X3.292 Y-3.992
+exportContourEntity: RLineEntity(0x46dc170)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.29225, -3.99155, 0, true)
+    endPoint: RVector(3.21159, -4.1576, 0, true)
+    exporting: RLine(RShape(address: "0x46dc1e0"), startPoint: RVector(3.29225, -3.99155, 0, true), endPoint: RVector(3.21159, -4.1576, 0, true))
+writeLine: N570 X3.212 Y-4.158
+exportContourEntity: RLineEntity(0x46dc7b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.21159, -4.1576, 0, true)
+    endPoint: RVector(3.12781, -4.31921, 0, true)
+    exporting: RLine(RShape(address: "0x46dc820"), startPoint: RVector(3.21159, -4.1576, 0, true), endPoint: RVector(3.12781, -4.31921, 0, true))
+writeLine: N580 X3.128 Y-4.319
+exportContourEntity: RLineEntity(0x46dcdf0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.12781, -4.31921, 0, true)
+    endPoint: RVector(3.04099, -4.47628, 0, true)
+    exporting: RLine(RShape(address: "0x46dce60"), startPoint: RVector(3.12781, -4.31921, 0, true), endPoint: RVector(3.04099, -4.47628, 0, true))
+writeLine: N590 X3.041 Y-4.476
+exportContourEntity: RLineEntity(0x46dd2f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.04099, -4.47628, 0, true)
+    endPoint: RVector(2.9512, -4.62869, 0, true)
+    exporting: RLine(RShape(address: "0x46dd360"), startPoint: RVector(3.04099, -4.47628, 0, true), endPoint: RVector(2.9512, -4.62869, 0, true))
+writeLine: N600 X2.951 Y-4.629
+exportContourEntity: RLineEntity(0x46dd740)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.9512, -4.62869, 0, true)
+    endPoint: RVector(2.85853, -4.77636, 0, true)
+    exporting: RLine(RShape(address: "0x46dd7b0"), startPoint: RVector(2.9512, -4.62869, 0, true), endPoint: RVector(2.85853, -4.77636, 0, true))
+writeLine: N610 X2.859 Y-4.776
+exportContourEntity: RLineEntity(0x46ddb90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.85853, -4.77636, 0, true)
+    endPoint: RVector(2.76304, -4.91917, 0, true)
+    exporting: RLine(RShape(address: "0x46ddc00"), startPoint: RVector(2.85853, -4.77636, 0, true), endPoint: RVector(2.76304, -4.91917, 0, true))
+writeLine: N620 X2.763 Y-4.919
+exportContourEntity: RLineEntity(0x46de010)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.76304, -4.91917, 0, true)
+    endPoint: RVector(2.66481, -5.05703, 0, true)
+    exporting: RLine(RShape(address: "0x46de080"), startPoint: RVector(2.76304, -4.91917, 0, true), endPoint: RVector(2.66481, -5.05703, 0, true))
+writeLine: N630 X2.665 Y-5.057
+exportContourEntity: RLineEntity(0x46de6b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.66481, -5.05703, 0, true)
+    endPoint: RVector(2.56391, -5.18984, 0, true)
+    exporting: RLine(RShape(address: "0x46de720"), startPoint: RVector(2.66481, -5.05703, 0, true), endPoint: RVector(2.56391, -5.18984, 0, true))
+writeLine: N640 X2.564 Y-5.19
+exportContourEntity: RLineEntity(0x46dee10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.56391, -5.18984, 0, true)
+    endPoint: RVector(2.46042, -5.31748, 0, true)
+    exporting: RLine(RShape(address: "0x46dee80"), startPoint: RVector(2.56391, -5.18984, 0, true), endPoint: RVector(2.46042, -5.31748, 0, true))
+writeLine: N650 X2.46 Y-5.317
+exportContourEntity: RLineEntity(0x46efa70)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.46042, -5.31748, 0, true)
+    endPoint: RVector(2.35442, -5.43986, 0, true)
+    exporting: RLine(RShape(address: "0x46efae0"), startPoint: RVector(2.46042, -5.31748, 0, true), endPoint: RVector(2.35442, -5.43986, 0, true))
+writeLine: N660 X2.354 Y-5.44
+exportContourEntity: RLineEntity(0x46effd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.35442, -5.43986, 0, true)
+    endPoint: RVector(2.24598, -5.55687, 0, true)
+    exporting: RLine(RShape(address: "0x46f0040"), startPoint: RVector(2.35442, -5.43986, 0, true), endPoint: RVector(2.24598, -5.55687, 0, true))
+writeLine: N670 X2.246 Y-5.557
+exportContourEntity: RLineEntity(0x46f05e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.24598, -5.55687, 0, true)
+    endPoint: RVector(2.13518, -5.66842, 0, true)
+    exporting: RLine(RShape(address: "0x46f0650"), startPoint: RVector(2.24598, -5.55687, 0, true), endPoint: RVector(2.13518, -5.66842, 0, true))
+writeLine: N680 X2.135 Y-5.668
+exportContourEntity: RLineEntity(0x46f0cb0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.13518, -5.66842, 0, true)
+    endPoint: RVector(2.02209, -5.77441, 0, true)
+    exporting: RLine(RShape(address: "0x46f0d20"), startPoint: RVector(2.13518, -5.66842, 0, true), endPoint: RVector(2.02209, -5.77441, 0, true))
+writeLine: N690 X2.022 Y-5.774
+exportContourEntity: RLineEntity(0x46f1380)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(2.02209, -5.77441, 0, true)
+    endPoint: RVector(1.90678, -5.87471, 0, true)
+    exporting: RLine(RShape(address: "0x46f13f0"), startPoint: RVector(2.02209, -5.77441, 0, true), endPoint: RVector(1.90678, -5.87471, 0, true))
+writeLine: N700 X1.907 Y-5.875
+exportContourEntity: RLineEntity(0x46f1a50)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(1.90678, -5.87471, 0, true)
+    endPoint: RVector(1.78934, -5.96925, 0, true)
+    exporting: RLine(RShape(address: "0x46f1ac0"), startPoint: RVector(1.90678, -5.87471, 0, true), endPoint: RVector(1.78934, -5.96925, 0, true))
+writeLine: N710 X1.789 Y-5.969
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46d9f00)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.5, -6.27868, 0, true)
+    endPoint: RVector(3.75, -6.27868, 0, true)
+    exporting: RCircle(RShape(address: "0x46d9f70"), center: RVector(3.625, -6.27868, 0, true), radius: 0.125)
+writeLine: N720 G00 Z2
+writeLine: N730 X3.75 Y-6.279
+writeLine: N740 G01 Z-2
+writeLine: N750 G03 X3.75 Y-6.279 I-0.125 J0
+  open path found
+exportContourEntity: RPolylineEntity(0x46f20e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46f2240)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(5.43589, -5.87784, 0, true)
+    endPoint: RVector(4.37562, -4.81756, 0, true)
+    exporting: RLine(RShape(address: "0x46f22b0"), startPoint: RVector(5.43589, -5.87784, 0, true), endPoint: RVector(4.37562, -4.81756, 0, true))
+writeLine: N760 G00 Z2
+writeLine: N770 X5.436 Y-5.878
+writeLine: N780 G01 Z-2
+writeLine: N790 X4.376 Y-4.818
+exportContourEntity: RLineEntity(0x46f27a0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.37562, -4.81756, 0, true)
+    endPoint: RVector(4.81756, -4.37562, 0, true)
+    exporting: RLine(RShape(address: "0x46f2810"), startPoint: RVector(4.37562, -4.81756, 0, true), endPoint: RVector(4.81756, -4.37562, 0, true))
+writeLine: N800 X4.818 Y-4.376
+exportContourEntity: RPolylineEntity(0x46e7f40)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e7a60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.81756, -4.37562, 0, true)
+    endPoint: RVector(5.87784, -5.43589, 0, true)
+    exporting: RLine(RShape(address: "0x46e7ad0"), startPoint: RVector(4.81756, -4.37562, 0, true), endPoint: RVector(5.87784, -5.43589, 0, true))
+writeLine: N810 X5.878 Y-5.436
+  path with one entity found
+exportContourEntity: RPolylineEntity(0x46e8000)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e8160)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.64336, -3.10661, 0, true)
+    endPoint: RVector(3.75821, -2.73108, 0, true)
+    exporting: RLine(RShape(address: "0x46e81d0"), startPoint: RVector(3.64336, -3.10661, 0, true), endPoint: RVector(3.75821, -2.73108, 0, true))
+writeLine: N820 G00 Z2
+writeLine: N830 X3.643 Y-3.107
+writeLine: N840 G01 Z-2
+writeLine: N850 X3.758 Y-2.731
+exportContourEntity: RLineEntity(0x46e8730)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.75821, -2.73108, 0, true)
+    endPoint: RVector(3.85743, -2.34743, 0, true)
+    exporting: RLine(RShape(address: "0x46e87a0"), startPoint: RVector(3.75821, -2.73108, 0, true), endPoint: RVector(3.85743, -2.34743, 0, true))
+writeLine: N860 X3.857 Y-2.347
+exportContourEntity: RLineEntity(0x46e8d80)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.85743, -2.34743, 0, true)
+    endPoint: RVector(3.94102, -1.95685, 0, true)
+    exporting: RLine(RShape(address: "0x46e8df0"), startPoint: RVector(3.85743, -2.34743, 0, true), endPoint: RVector(3.94102, -1.95685, 0, true))
+writeLine: N870 X3.941 Y-1.957
+exportContourEntity: RLineEntity(0x46eb810)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.94102, -1.95685, 0, true)
+    endPoint: RVector(4.009, -1.56054, 0, true)
+    exporting: RLine(RShape(address: "0x46eb880"), startPoint: RVector(3.94102, -1.95685, 0, true), endPoint: RVector(4.009, -1.56054, 0, true))
+writeLine: N880 X4.009 Y-1.561
+exportContourEntity: RLineEntity(0x46ebd80)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.009, -1.56054, 0, true)
+    endPoint: RVector(4.06136, -1.15969, 0, true)
+    exporting: RLine(RShape(address: "0x46ebdf0"), startPoint: RVector(4.009, -1.56054, 0, true), endPoint: RVector(4.06136, -1.15969, 0, true))
+writeLine: N890 X4.061 Y-1.16
+exportContourEntity: RLineEntity(0x46ec2f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.06136, -1.15969, 0, true)
+    endPoint: RVector(4.09812, -0.755491, 0, true)
+    exporting: RLine(RShape(address: "0x46ec360"), startPoint: RVector(4.06136, -1.15969, 0, true), endPoint: RVector(4.09812, -0.755491, 0, true))
+writeLine: N900 X4.098 Y-0.755
+exportContourEntity: RLineEntity(0x46ec860)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.09812, -0.755491, 0, true)
+    endPoint: RVector(4.11928, -0.349128, 0, true)
+    exporting: RLine(RShape(address: "0x46ec8d0"), startPoint: RVector(4.09812, -0.755491, 0, true), endPoint: RVector(4.11928, -0.349128, 0, true))
+writeLine: N910 X4.119 Y-0.349
+exportContourEntity: RLineEntity(0x46ecdd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.11928, -0.349128, 0, true)
+    endPoint: RVector(4.12484, 0.058206, 0, true)
+    exporting: RLine(RShape(address: "0x46ece40"), startPoint: RVector(4.11928, -0.349128, 0, true), endPoint: RVector(4.12484, 0.058206, 0, true))
+writeLine: N920 X4.125 Y0.058
+exportContourEntity: RLineEntity(0x46e9b70)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.12484, 0.058206, 0, true)
+    endPoint: RVector(4.11482, 0.46532, 0, true)
+    exporting: RLine(RShape(address: "0x46e9be0"), startPoint: RVector(4.12484, 0.058206, 0, true), endPoint: RVector(4.11482, 0.46532, 0, true))
+writeLine: N930 X4.115 Y0.465
+exportContourEntity: RLineEntity(0x46ea1b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.11482, 0.46532, 0, true)
+    endPoint: RVector(4.08922, 0.871024, 0, true)
+    exporting: RLine(RShape(address: "0x46ea220"), startPoint: RVector(4.11482, 0.46532, 0, true), endPoint: RVector(4.08922, 0.871024, 0, true))
+writeLine: N940 X4.089 Y0.871
+exportContourEntity: RLineEntity(0x46ea7d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.08922, 0.871024, 0, true)
+    endPoint: RVector(4.04805, 1.27413, 0, true)
+    exporting: RLine(RShape(address: "0x46ea840"), startPoint: RVector(4.08922, 0.871024, 0, true), endPoint: RVector(4.04805, 1.27413, 0, true))
+writeLine: N950 X4.048 Y1.274
+exportContourEntity: RLineEntity(0x46ead70)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(4.04805, 1.27413, 0, true)
+    endPoint: RVector(3.99131, 1.67344, 0, true)
+    exporting: RLine(RShape(address: "0x46eade0"), startPoint: RVector(4.04805, 1.27413, 0, true), endPoint: RVector(3.99131, 1.67344, 0, true))
+writeLine: N960 X3.991 Y1.673
+exportContourEntity: RLineEntity(0x46eb3d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.99131, 1.67344, 0, true)
+    endPoint: RVector(3.91901, 2.06777, 0, true)
+    exporting: RLine(RShape(address: "0x46eb440"), startPoint: RVector(3.99131, 1.67344, 0, true), endPoint: RVector(3.91901, 2.06777, 0, true))
+writeLine: N970 X3.919 Y2.068
+exportContourEntity: RLineEntity(0x46ed6b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.91901, 2.06777, 0, true)
+    endPoint: RVector(3.83115, 2.45592, 0, true)
+    exporting: RLine(RShape(address: "0x46ed720"), startPoint: RVector(3.91901, 2.06777, 0, true), endPoint: RVector(3.83115, 2.45592, 0, true))
+writeLine: N980 X3.831 Y2.456
+exportContourEntity: RLineEntity(0x46eddb0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.83115, 2.45592, 0, true)
+    endPoint: RVector(3.72775, 2.83671, 0, true)
+    exporting: RLine(RShape(address: "0x46ede20"), startPoint: RVector(3.83115, 2.45592, 0, true), endPoint: RVector(3.72775, 2.83671, 0, true))
+writeLine: N990 X3.728 Y2.837
+exportContourEntity: RLineEntity(0x46ee510)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(3.72775, 2.83671, 0, true)
+    endPoint: RVector(3.60881, 3.20895, 0, true)
+    exporting: RLine(RShape(address: "0x46ee580"), startPoint: RVector(3.72775, 2.83671, 0, true), endPoint: RVector(3.60881, 3.20895, 0, true))
+writeLine: N1000 X3.609 Y3.209
+  open path found
+exportContourEntity: RArcEntity(0x46eecd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.37382, 0, 0, true)
+    endPoint: RVector(-5.23366, 3.26429, 0, true)
+    exporting: RArc(RShape(address: "0x46eed40"), center: RVector(-11, 0, 0, true), radius: 6.62618, startAngle: 0, endAngle: 0.515115, startPoint: RVector(-4.37382, 0, 0, true), endPoint: RVector(-5.23366, 3.26429, 0, true), sweep: 0.515115, reversed: false)
+writeLine: N1010 G00 Z2
+writeLine: N1020 X-4.374 Y0
+writeLine: N1030 G01 Z-2
+writeLine: N1040 G03 X-5.234 Y3.264 I-6.626 J0
+exportContourEntity: RPolylineEntity(0x46e9320)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e9480)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.23366, 3.26429, 0, true)
+    endPoint: RVector(-5.23474, 3.26507, 0, true)
+    exporting: RLine(RShape(address: "0x46e94f0"), startPoint: RVector(-5.23366, 3.26429, 0, true), endPoint: RVector(-5.23474, 3.26507, 0, true))
+writeLine: N1050 G01 X-5.235 Y3.265
+exportContourEntity: RArcEntity(0x46ef860)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.23474, 3.26507, 0, true)
+    endPoint: RVector(-5.76517, 3.26517, 0, true)
+    exporting: RArc(RShape(address: "0x46ef8d0"), center: RVector(-5.5, 3, 0, true), radius: 0.375, startAngle: 0.785025, endAngle: 2.35619, startPoint: RVector(-5.23474, 3.26507, 0, true), endPoint: RVector(-5.76517, 3.26517, 0, true), sweep: 1.57117, reversed: false)
+writeLine: N1060 G03 X-5.765 Y3.265 I-0.265 J-0.265
+exportContourEntity: RPolylineEntity(0x46e6f10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46e70d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.76517, 3.26517, 0, true)
+    endPoint: RVector(-5.76748, 3.25988, 0, true)
+    exporting: RLine(RShape(address: "0x46e7140"), startPoint: RVector(-5.76517, 3.26517, 0, true), endPoint: RVector(-5.76748, 3.25988, 0, true))
+writeLine: N1070 G01 X-5.767 Y3.26
+  open path found
+exportContourEntity: RArcEntity(0x46eef10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.76747, 3.25989, 0, true)
+    endPoint: RVector(-6.625, 8.11329e-16, 0, true)
+    exporting: RArc(RShape(address: "0x46eef80"), center: RVector(0, 0, 0, true), radius: 6.625, startAngle: 2.62714, endAngle: 3.14159, startPoint: RVector(-5.76747, 3.25989, 0, true), endPoint: RVector(-6.625, 8.11329e-16, 0, true), sweep: 0.514453, reversed: false)
+writeLine: N1080 G03 X-6.625 Y0 I5.767 J-3.26
+exportContourEntity: RArcEntity(0x46f2910)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-6.625, 1.37773e-16, 0, true)
+    endPoint: RVector(-4.375, -2.75546e-16, 0, true)
+    exporting: RArc(RShape(address: "0x46f2980"), center: RVector(-5.5, 0, 0, true), radius: 1.125, startAngle: 3.14159, endAngle: 6.28319, startPoint: RVector(-6.625, 1.37773e-16, 0, true), endPoint: RVector(-4.375, -2.75546e-16, 0, true), sweep: 3.14159, reversed: false)
+writeLine: N1090 G03 X-4.375 Y-0 I1.125 J-0
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46f2e40)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-7.375, 0, 0, true)
+    endPoint: RVector(-7.125, 0, 0, true)
+    exporting: RCircle(RShape(address: "0x46f2eb0"), center: RVector(-7.25, 0, 0, true), radius: 0.125)
+writeLine: N1100 G00 Z2
+writeLine: N1110 X-7.125
+writeLine: N1120 G01 Z-2
+writeLine: N1130 G03 X-7.125 Y-0 I-0.125 J0
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46f3500)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-6.40368, -3.625, 0, true)
+    endPoint: RVector(-6.15368, -3.625, 0, true)
+    exporting: RCircle(RShape(address: "0x46f3570"), center: RVector(-6.27868, -3.625, 0, true), radius: 0.125)
+writeLine: N1140 G00 Z2
+writeLine: N1150 X-6.154 Y-3.625
+writeLine: N1160 G01 Z-2
+writeLine: N1170 G03 X-6.154 Y-3.625 I-0.125 J0
+  path with one entity found
+exportContourEntity: RArcEntity(0x46f3bc0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.72886, -3.28827, 0, true)
+    endPoint: RVector(-3.6567, -3.07302, 0, true)
+    exporting: RArc(RShape(address: "0x46f3c30"), center: RVector(-3.90897, -3.10816, 0, true), radius: 0.254707, startAngle: 24.3473, endAngle: 25.2711, startPoint: RVector(-3.72886, -3.28827, 0, true), endPoint: RVector(-3.6567, -3.07302, 0, true), sweep: 0.923803, reversed: false)
+writeLine: N1180 G00 Z2
+writeLine: N1190 X-3.729 Y-3.288
+writeLine: N1200 G01 Z-2
+writeLine: N1210 G03 X-3.657 Y-3.073 I-0.18 J0.18
+  open path found
+exportContourEntity: RPolylineEntity(0x46f4210)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46f4f40)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.6516, -3.08155, 0, true)
+    endPoint: RVector(-3.76159, -2.71904, 0, true)
+    exporting: RLine(RShape(address: "0x46f4fb0"), startPoint: RVector(-3.6516, -3.08155, 0, true), endPoint: RVector(-3.76159, -2.71904, 0, true))
+writeLine: N1220 G00 Z2
+writeLine: N1230 X-3.652 Y-3.082
+writeLine: N1240 G01 Z-2
+writeLine: N1250 X-3.762 Y-2.719
+exportContourEntity: RLineEntity(0x46f5570)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.76159, -2.71904, 0, true)
+    endPoint: RVector(-3.85706, -2.34894, 0, true)
+    exporting: RLine(RShape(address: "0x46f55e0"), startPoint: RVector(-3.76159, -2.71904, 0, true), endPoint: RVector(-3.85706, -2.34894, 0, true))
+writeLine: N1260 X-3.857 Y-2.349
+exportContourEntity: RLineEntity(0x46f5cd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.85706, -2.34894, 0, true)
+    endPoint: RVector(-3.93802, -1.97233, 0, true)
+    exporting: RLine(RShape(address: "0x46f5d40"), startPoint: RVector(-3.85706, -2.34894, 0, true), endPoint: RVector(-3.93802, -1.97233, 0, true))
+writeLine: N1270 X-3.938 Y-1.972
+exportContourEntity: RLineEntity(0x46f6430)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.93802, -1.97233, 0, true)
+    endPoint: RVector(-4.00445, -1.59026, 0, true)
+    exporting: RLine(RShape(address: "0x46f64a0"), startPoint: RVector(-3.93802, -1.97233, 0, true), endPoint: RVector(-4.00445, -1.59026, 0, true))
+writeLine: N1280 X-4.004 Y-1.59
+exportContourEntity: RLineEntity(0x4700ad0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.00445, -1.59026, 0, true)
+    endPoint: RVector(-4.05637, -1.20381, 0, true)
+    exporting: RLine(RShape(address: "0x4700b40"), startPoint: RVector(-4.00445, -1.59026, 0, true), endPoint: RVector(-4.05637, -1.20381, 0, true))
+writeLine: N1290 X-4.056 Y-1.204
+exportContourEntity: RLineEntity(0x4700de0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.05637, -1.20381, 0, true)
+    endPoint: RVector(-4.09376, -0.814052, 0, true)
+    exporting: RLine(RShape(address: "0x4700e50"), startPoint: RVector(-4.05637, -1.20381, 0, true), endPoint: RVector(-4.09376, -0.814052, 0, true))
+writeLine: N1300 X-4.094 Y-0.814
+exportContourEntity: RLineEntity(0x4701230)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.09376, -0.814052, 0, true)
+    endPoint: RVector(-4.11663, -0.422051, 0, true)
+    exporting: RLine(RShape(address: "0x47012a0"), startPoint: RVector(-4.09376, -0.814052, 0, true), endPoint: RVector(-4.11663, -0.422051, 0, true))
+writeLine: N1310 X-4.117 Y-0.422
+exportContourEntity: RLineEntity(0x4701680)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.11663, -0.422051, 0, true)
+    endPoint: RVector(-4.12496, -0.0288796, 0, true)
+    exporting: RLine(RShape(address: "0x47016f0"), startPoint: RVector(-4.11663, -0.422051, 0, true), endPoint: RVector(-4.12496, -0.0288796, 0, true))
+writeLine: N1320 X-4.125 Y-0.029
+exportContourEntity: RLineEntity(0x4701c90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.12496, -0.0288796, 0, true)
+    endPoint: RVector(-4.11876, 0.364394, 0, true)
+    exporting: RLine(RShape(address: "0x4701d00"), startPoint: RVector(-4.12496, -0.0288796, 0, true), endPoint: RVector(-4.11876, 0.364394, 0, true))
+writeLine: N1330 X-4.119 Y0.364
+exportContourEntity: RLineEntity(0x47022a0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.11876, 0.364394, 0, true)
+    endPoint: RVector(-4.09803, 0.756699, 0, true)
+    exporting: RLine(RShape(address: "0x4702310"), startPoint: RVector(-4.11876, 0.364394, 0, true), endPoint: RVector(-4.09803, 0.756699, 0, true))
+writeLine: N1340 X-4.098 Y0.757
+exportContourEntity: RLineEntity(0x46f9270)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.09803, 0.756699, 0, true)
+    endPoint: RVector(-4.06275, 1.14697, 0, true)
+    exporting: RLine(RShape(address: "0x46f92e0"), startPoint: RVector(-4.09803, 0.756699, 0, true), endPoint: RVector(-4.06275, 1.14697, 0, true))
+writeLine: N1350 X-4.063 Y1.147
+exportContourEntity: RLineEntity(0x46f9c50)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.06275, 1.14697, 0, true)
+    endPoint: RVector(-4.01294, 1.53413, 0, true)
+    exporting: RLine(RShape(address: "0x46f9cc0"), startPoint: RVector(-4.06275, 1.14697, 0, true), endPoint: RVector(-4.01294, 1.53413, 0, true))
+writeLine: N1360 X-4.013 Y1.534
+exportContourEntity: RLineEntity(0x27fa540)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.01294, 1.53413, 0, true)
+    endPoint: RVector(-3.94857, 1.91711, 0, true)
+    exporting: RLine(RShape(address: "0x27fa5b0"), startPoint: RVector(-4.01294, 1.53413, 0, true), endPoint: RVector(-3.94857, 1.91711, 0, true))
+writeLine: N1370 X-3.949 Y1.917
+exportContourEntity: RLineEntity(0x2eb9640)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.94857, 1.91711, 0, true)
+    endPoint: RVector(-3.86967, 2.29485, 0, true)
+    exporting: RLine(RShape(address: "0x2eb96b0"), startPoint: RVector(-3.94857, 1.91711, 0, true), endPoint: RVector(-3.86967, 2.29485, 0, true))
+writeLine: N1380 X-3.87 Y2.295
+exportContourEntity: RLineEntity(0x2e79100)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.86967, 2.29485, 0, true)
+    endPoint: RVector(-3.77621, 2.66627, 0, true)
+    exporting: RLine(RShape(address: "0x2e79170"), startPoint: RVector(-3.86967, 2.29485, 0, true), endPoint: RVector(-3.77621, 2.66627, 0, true))
+writeLine: N1390 X-3.776 Y2.666
+exportContourEntity: RLineEntity(0x3f8be00)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.77621, 2.66627, 0, true)
+    endPoint: RVector(-3.66819, 3.0303, 0, true)
+    exporting: RLine(RShape(address: "0x3f8be70"), startPoint: RVector(-3.77621, 2.66627, 0, true), endPoint: RVector(-3.66819, 3.0303, 0, true))
+writeLine: N1400 X-3.668 Y3.03
+exportContourEntity: RPolylineEntity(0x46f9d20)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46f9990)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.66819, 3.0303, 0, true)
+    endPoint: RVector(-3.66812, 3.22617, 0, true)
+    exporting: RLine(RShape(address: "0x46f9a00"), startPoint: RVector(-3.66819, 3.0303, 0, true), endPoint: RVector(-3.66812, 3.22617, 0, true))
+writeLine: N1410 Y3.226
+exportContourEntity: RLineEntity(0x46fc240)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.66812, 3.22617, 0, true)
+    endPoint: RVector(-3.66812, 4.11006, 0, true)
+    exporting: RLine(RShape(address: "0x46fc2b0"), startPoint: RVector(-3.66812, 3.22617, 0, true), endPoint: RVector(-3.66812, 4.11006, 0, true))
+writeLine: N1420 Y4.11
+exportContourEntity: RLineEntity(0x46fc750)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.66812, 4.11006, 0, true)
+    endPoint: RVector(-4.11006, 3.66812, 0, true)
+    exporting: RLine(RShape(address: "0x46fc7c0"), startPoint: RVector(-3.66812, 4.11006, 0, true), endPoint: RVector(-4.11006, 3.66812, 0, true))
+writeLine: N1430 X-4.11 Y3.668
+exportContourEntity: RLineEntity(0x46fcc60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.11006, 3.66812, 0, true)
+    endPoint: RVector(-4.552, 4.11006, 0, true)
+    exporting: RLine(RShape(address: "0x46fccd0"), startPoint: RVector(-4.11006, 3.66812, 0, true), endPoint: RVector(-4.552, 4.11006, 0, true))
+writeLine: N1440 X-4.552 Y4.11
+exportContourEntity: RLineEntity(0x46fa160)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.552, 4.11006, 0, true)
+    endPoint: RVector(-4.11006, 4.552, 0, true)
+    exporting: RLine(RShape(address: "0x46fa1d0"), startPoint: RVector(-4.552, 4.11006, 0, true), endPoint: RVector(-4.11006, 4.552, 0, true))
+writeLine: N1450 X-4.11 Y4.552
+exportContourEntity: RLineEntity(0x46fa3d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.11006, 4.552, 0, true)
+    endPoint: RVector(-3.66812, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46fa440"), startPoint: RVector(-4.11006, 4.552, 0, true), endPoint: RVector(-3.66812, 4.99394, 0, true))
+writeLine: N1460 X-3.668 Y4.994
+exportContourEntity: RLineEntity(0x46fa6e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.66812, 4.99394, 0, true)
+    endPoint: RVector(-3.66812, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46fa750"), startPoint: RVector(-3.66812, 4.99394, 0, true), endPoint: RVector(-3.66812, 5.87783, 0, true))
+writeLine: N1470 Y5.878
+exportContourEntity: RLineEntity(0x46fa9f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.66812, 5.87783, 0, true)
+    endPoint: RVector(-4.11006, 5.43588, 0, true)
+    exporting: RLine(RShape(address: "0x46faa60"), startPoint: RVector(-3.66812, 5.87783, 0, true), endPoint: RVector(-4.11006, 5.43588, 0, true))
+writeLine: N1480 X-4.11 Y5.436
+exportContourEntity: RLineEntity(0x46fac60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.11006, 5.43588, 0, true)
+    endPoint: RVector(-4.552, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46facd0"), startPoint: RVector(-4.11006, 5.43588, 0, true), endPoint: RVector(-4.552, 4.99394, 0, true))
+writeLine: N1490 X-4.552 Y4.994
+exportContourEntity: RLineEntity(0x46faed0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.552, 4.99394, 0, true)
+    endPoint: RVector(-4.99394, 4.552, 0, true)
+    exporting: RLine(RShape(address: "0x46faf40"), startPoint: RVector(-4.552, 4.99394, 0, true), endPoint: RVector(-4.99394, 4.552, 0, true))
+writeLine: N1500 X-4.994 Y4.552
+exportContourEntity: RLineEntity(0x46fb1a0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.99394, 4.552, 0, true)
+    endPoint: RVector(-5.43588, 4.99394, 0, true)
+    exporting: RLine(RShape(address: "0x46fb210"), startPoint: RVector(-4.99394, 4.552, 0, true), endPoint: RVector(-5.43588, 4.99394, 0, true))
+writeLine: N1510 X-5.436 Y4.994
+exportContourEntity: RLineEntity(0x46fb670)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.43588, 4.99394, 0, true)
+    endPoint: RVector(-4.99394, 5.43588, 0, true)
+    exporting: RLine(RShape(address: "0x46fb6e0"), startPoint: RVector(-5.43588, 4.99394, 0, true), endPoint: RVector(-4.99394, 5.43588, 0, true))
+writeLine: N1520 X-4.994 Y5.436
+exportContourEntity: RLineEntity(0x46fbaa0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.99394, 5.43588, 0, true)
+    endPoint: RVector(-4.552, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46fbb10"), startPoint: RVector(-4.99394, 5.43588, 0, true), endPoint: RVector(-4.552, 5.87783, 0, true))
+writeLine: N1530 X-4.552 Y5.878
+exportContourEntity: RLineEntity(0x46fbe30)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.552, 5.87783, 0, true)
+    endPoint: RVector(-5.43588, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46fbea0"), startPoint: RVector(-4.552, 5.87783, 0, true), endPoint: RVector(-5.43588, 5.87783, 0, true))
+writeLine: N1540 X-5.436
+  path with one entity found
+exportContourEntity: RArcEntity(0x46f4750)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.87335, 5.43174, 0, true)
+    endPoint: RVector(5.43174, -5.87335, 0, true)
+    exporting: RArc(RShape(address: "0x46f47c0"), center: RVector(0, 0, 0, true), radius: 8, startAngle: 2.39524, endAngle: 5.45874, startPoint: RVector(-5.87335, 5.43174, 0, true), endPoint: RVector(5.43174, -5.87335, 0, true), sweep: 3.06351, reversed: false)
+writeLine: N1550 G00 Z2
+writeLine: N1560 X-5.873 Y5.432
+writeLine: N1570 G01 Z-2
+writeLine: N1580 G03 X5.432 Y-5.873 I5.873 J-5.432
+  path with one entity found
+exportContourEntity: RCircleEntity(0x2d25e90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-0.125, -7.25, 0, true)
+    endPoint: RVector(0.125, -7.25, 0, true)
+    exporting: RCircle(RShape(address: "0x2d25f00"), center: RVector(0, -7.25, 0, true), radius: 0.125)
+writeLine: N1590 G00 Z2
+writeLine: N1600 X0.125 Y-7.25
+writeLine: N1610 G01 Z-2
+writeLine: N1620 G03 X0.125 Y-7.25 I-0.125 J0
+  open path found
+exportContourEntity: RPolylineEntity(0x48b4d00)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46fce60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.79264, -5.9667, 0, true)
+    endPoint: RVector(-1.80389, -5.95795, 0, true)
+    exporting: RLine(RShape(address: "0x46fced0"), startPoint: RVector(-1.79264, -5.9667, 0, true), endPoint: RVector(-1.80389, -5.95795, 0, true))
+writeLine: N1630 G00 Z2
+writeLine: N1640 X-1.793 Y-5.967
+writeLine: N1650 G01 Z-2
+writeLine: N1660 X-1.804 Y-5.958
+exportContourEntity: RLineEntity(0x46fd8e0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.80389, -5.95795, 0, true)
+    endPoint: RVector(-1.81511, -5.94915, 0, true)
+    exporting: RLine(RShape(address: "0x46fd950"), startPoint: RVector(-1.80389, -5.95795, 0, true), endPoint: RVector(-1.81511, -5.94915, 0, true))
+writeLine: N1670 X-1.815 Y-5.949
+exportContourEntity: RLineEntity(0x46fdc70)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.81511, -5.94915, 0, true)
+    endPoint: RVector(-1.82632, -5.94029, 0, true)
+    exporting: RLine(RShape(address: "0x46fdce0"), startPoint: RVector(-1.81511, -5.94915, 0, true), endPoint: RVector(-1.82632, -5.94029, 0, true))
+writeLine: N1680 X-1.826 Y-5.94
+exportContourEntity: RLineEntity(0x46fe000)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.82632, -5.94029, 0, true)
+    endPoint: RVector(-1.83752, -5.93138, 0, true)
+    exporting: RLine(RShape(address: "0x46fe070"), startPoint: RVector(-1.82632, -5.94029, 0, true), endPoint: RVector(-1.83752, -5.93138, 0, true))
+writeLine: N1690 X-1.838 Y-5.931
+exportContourEntity: RLineEntity(0x46fe2d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.83752, -5.93138, 0, true)
+    endPoint: RVector(-1.8487, -5.92241, 0, true)
+    exporting: RLine(RShape(address: "0x46fe340"), startPoint: RVector(-1.83752, -5.93138, 0, true), endPoint: RVector(-1.8487, -5.92241, 0, true))
+writeLine: N1700 X-1.849 Y-5.922
+exportContourEntity: RLineEntity(0x4f8b0c0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.8487, -5.92241, 0, true)
+    endPoint: RVector(-1.85986, -5.91339, 0, true)
+    exporting: RLine(RShape(address: "0x4f8b130"), startPoint: RVector(-1.8487, -5.92241, 0, true), endPoint: RVector(-1.85986, -5.91339, 0, true))
+writeLine: N1710 X-1.86 Y-5.913
+exportContourEntity: RLineEntity(0x3d23280)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.85986, -5.91339, 0, true)
+    endPoint: RVector(-1.871, -5.90432, 0, true)
+    exporting: RLine(RShape(address: "0x3d232f0"), startPoint: RVector(-1.85986, -5.91339, 0, true), endPoint: RVector(-1.871, -5.90432, 0, true))
+writeLine: N1720 X-1.871 Y-5.904
+exportContourEntity: RLineEntity(0x3e28af0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.871, -5.90432, 0, true)
+    endPoint: RVector(-1.88212, -5.89519, 0, true)
+    exporting: RLine(RShape(address: "0x3e28b60"), startPoint: RVector(-1.871, -5.90432, 0, true), endPoint: RVector(-1.88212, -5.89519, 0, true))
+writeLine: N1730 X-1.882 Y-5.895
+exportContourEntity: RLineEntity(0x46fe4d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.88212, -5.89519, 0, true)
+    endPoint: RVector(-1.89323, -5.88601, 0, true)
+    exporting: RLine(RShape(address: "0x46fe540"), startPoint: RVector(-1.88212, -5.89519, 0, true), endPoint: RVector(-1.89323, -5.88601, 0, true))
+writeLine: N1740 X-1.893 Y-5.886
+exportContourEntity: RLineEntity(0x46fe800)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.89323, -5.88601, 0, true)
+    endPoint: RVector(-1.90432, -5.87677, 0, true)
+    exporting: RLine(RShape(address: "0x46fe870"), startPoint: RVector(-1.89323, -5.88601, 0, true), endPoint: RVector(-1.90432, -5.87677, 0, true))
+writeLine: N1750 X-1.904 Y-5.877
+exportContourEntity: RLineEntity(0x46feb90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.90432, -5.87677, 0, true)
+    endPoint: RVector(-1.9154, -5.86748, 0, true)
+    exporting: RLine(RShape(address: "0x46fec00"), startPoint: RVector(-1.90432, -5.87677, 0, true), endPoint: RVector(-1.9154, -5.86748, 0, true))
+writeLine: N1760 X-1.915 Y-5.867
+exportContourEntity: RLineEntity(0x46fef20)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.9154, -5.86748, 0, true)
+    endPoint: RVector(-1.92645, -5.85814, 0, true)
+    exporting: RLine(RShape(address: "0x46fef90"), startPoint: RVector(-1.9154, -5.86748, 0, true), endPoint: RVector(-1.92645, -5.85814, 0, true))
+writeLine: N1770 X-1.926 Y-5.858
+exportContourEntity: RLineEntity(0x46ff2b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.92645, -5.85814, 0, true)
+    endPoint: RVector(-1.93749, -5.84874, 0, true)
+    exporting: RLine(RShape(address: "0x46ff320"), startPoint: RVector(-1.92645, -5.85814, 0, true), endPoint: RVector(-1.93749, -5.84874, 0, true))
+writeLine: N1780 X-1.937 Y-5.849
+exportContourEntity: RLineEntity(0x46ff640)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.93749, -5.84874, 0, true)
+    endPoint: RVector(-1.94851, -5.83929, 0, true)
+    exporting: RLine(RShape(address: "0x46ff6b0"), startPoint: RVector(-1.93749, -5.84874, 0, true), endPoint: RVector(-1.94851, -5.83929, 0, true))
+writeLine: N1790 X-1.949 Y-5.839
+exportContourEntity: RLineEntity(0x46ff9d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.94851, -5.83929, 0, true)
+    endPoint: RVector(-1.95952, -5.82978, 0, true)
+    exporting: RLine(RShape(address: "0x46ffa40"), startPoint: RVector(-1.94851, -5.83929, 0, true), endPoint: RVector(-1.95952, -5.82978, 0, true))
+writeLine: N1800 X-1.96 Y-5.83
+exportContourEntity: RLineEntity(0x46ffd60)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.95952, -5.82978, 0, true)
+    endPoint: RVector(-1.9705, -5.82022, 0, true)
+    exporting: RLine(RShape(address: "0x46ffdd0"), startPoint: RVector(-1.95952, -5.82978, 0, true), endPoint: RVector(-1.9705, -5.82022, 0, true))
+writeLine: N1810 X-1.97 Y-5.82
+exportContourEntity: RPolylineEntity(0x2d764c0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x47005d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.9705, -5.82022, 0, true)
+    endPoint: RVector(-2.07411, -5.72662, 0, true)
+    exporting: RLine(RShape(address: "0x4700640"), startPoint: RVector(-1.9705, -5.82022, 0, true), endPoint: RVector(-2.07411, -5.72662, 0, true))
+writeLine: N1820 X-2.074 Y-5.727
+exportContourEntity: RLineEntity(0x3f5eff0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.07411, -5.72662, 0, true)
+    endPoint: RVector(-2.17584, -5.6284, 0, true)
+    exporting: RLine(RShape(address: "0x3f5f060"), startPoint: RVector(-2.07411, -5.72662, 0, true), endPoint: RVector(-2.17584, -5.6284, 0, true))
+writeLine: N1830 X-2.176 Y-5.628
+exportContourEntity: RLineEntity(0x3f60f20)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.17584, -5.6284, 0, true)
+    endPoint: RVector(-2.27565, -5.52565, 0, true)
+    exporting: RLine(RShape(address: "0x3f60f90"), startPoint: RVector(-2.17584, -5.6284, 0, true), endPoint: RVector(-2.27565, -5.52565, 0, true))
+writeLine: N1840 X-2.276 Y-5.526
+exportContourEntity: RLineEntity(0x3a2fba0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.27565, -5.52565, 0, true)
+    endPoint: RVector(-2.37348, -5.41846, 0, true)
+    exporting: RLine(RShape(address: "0x3a2fc10"), startPoint: RVector(-2.27565, -5.52565, 0, true), endPoint: RVector(-2.37348, -5.41846, 0, true))
+writeLine: N1850 X-2.373 Y-5.418
+exportContourEntity: RLineEntity(0x3a2f910)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.37348, -5.41846, 0, true)
+    endPoint: RVector(-2.46928, -5.30688, 0, true)
+    exporting: RLine(RShape(address: "0x3a2f980"), startPoint: RVector(-2.37348, -5.41846, 0, true), endPoint: RVector(-2.46928, -5.30688, 0, true))
+writeLine: N1860 X-2.469 Y-5.307
+exportContourEntity: RLineEntity(0x3c76750)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.46928, -5.30688, 0, true)
+    endPoint: RVector(-2.56298, -5.19102, 0, true)
+    exporting: RLine(RShape(address: "0x3c767c0"), startPoint: RVector(-2.46928, -5.30688, 0, true), endPoint: RVector(-2.56298, -5.19102, 0, true))
+writeLine: N1870 X-2.563 Y-5.191
+exportContourEntity: RLineEntity(0x3a2f3f0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.56298, -5.19102, 0, true)
+    endPoint: RVector(-2.65455, -5.07093, 0, true)
+    exporting: RLine(RShape(address: "0x3a2f460"), startPoint: RVector(-2.56298, -5.19102, 0, true), endPoint: RVector(-2.65455, -5.07093, 0, true))
+writeLine: N1880 X-2.655 Y-5.071
+exportContourEntity: RLineEntity(0x3a2c430)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.65455, -5.07093, 0, true)
+    endPoint: RVector(-2.74392, -4.94671, 0, true)
+    exporting: RLine(RShape(address: "0x3a2c4a0"), startPoint: RVector(-2.65455, -5.07093, 0, true), endPoint: RVector(-2.74392, -4.94671, 0, true))
+writeLine: N1890 X-2.744 Y-4.947
+exportContourEntity: RLineEntity(0x3f64380)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.74392, -4.94671, 0, true)
+    endPoint: RVector(-2.83103, -4.81842, 0, true)
+    exporting: RLine(RShape(address: "0x3f643f0"), startPoint: RVector(-2.74392, -4.94671, 0, true), endPoint: RVector(-2.83103, -4.81842, 0, true))
+writeLine: N1900 X-2.831 Y-4.818
+exportContourEntity: RLineEntity(0x3f63730)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.83103, -4.81842, 0, true)
+    endPoint: RVector(-2.91584, -4.68615, 0, true)
+    exporting: RLine(RShape(address: "0x3f637a0"), startPoint: RVector(-2.83103, -4.81842, 0, true), endPoint: RVector(-2.91584, -4.68615, 0, true))
+writeLine: N1910 X-2.916 Y-4.686
+exportContourEntity: RLineEntity(0x3b5e120)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.91584, -4.68615, 0, true)
+    endPoint: RVector(-2.99828, -4.54998, 0, true)
+    exporting: RLine(RShape(address: "0x3b5e190"), startPoint: RVector(-2.91584, -4.68615, 0, true), endPoint: RVector(-2.99828, -4.54998, 0, true))
+writeLine: N1920 X-2.998 Y-4.55
+exportContourEntity: RLineEntity(0x3f5fee0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-2.99828, -4.54998, 0, true)
+    endPoint: RVector(-3.07831, -4.40998, 0, true)
+    exporting: RLine(RShape(address: "0x3f5ff50"), startPoint: RVector(-2.99828, -4.54998, 0, true), endPoint: RVector(-3.07831, -4.40998, 0, true))
+writeLine: N1930 X-3.078 Y-4.41
+exportContourEntity: RLineEntity(0x38b6d10)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.07831, -4.40998, 0, true)
+    endPoint: RVector(-3.15587, -4.26624, 0, true)
+    exporting: RLine(RShape(address: "0x38b6d80"), startPoint: RVector(-3.07831, -4.40998, 0, true), endPoint: RVector(-3.15587, -4.26624, 0, true))
+writeLine: N1940 X-3.156 Y-4.266
+exportContourEntity: RLineEntity(0x3f62950)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.15587, -4.26624, 0, true)
+    endPoint: RVector(-3.2309, -4.11882, 0, true)
+    exporting: RLine(RShape(address: "0x3f629c0"), startPoint: RVector(-3.15587, -4.26624, 0, true), endPoint: RVector(-3.2309, -4.11882, 0, true))
+writeLine: N1950 X-3.231 Y-4.119
+exportContourEntity: RLineEntity(0x3f710d0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.2309, -4.11882, 0, true)
+    endPoint: RVector(-3.30335, -3.96782, 0, true)
+    exporting: RLine(RShape(address: "0x3f71140"), startPoint: RVector(-3.2309, -4.11882, 0, true), endPoint: RVector(-3.30335, -3.96782, 0, true))
+writeLine: N1960 X-3.303 Y-3.968
+exportContourEntity: RLineEntity(0x3f5f450)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.30335, -3.96782, 0, true)
+    endPoint: RVector(-3.37317, -3.8133, 0, true)
+    exporting: RLine(RShape(address: "0x3f5f4c0"), startPoint: RVector(-3.30335, -3.96782, 0, true), endPoint: RVector(-3.37317, -3.8133, 0, true))
+writeLine: N1970 X-3.373 Y-3.813
+  open path found
+exportContourEntity: RPolylineEntity(0x46fd510)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x38b66c0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.37261, -3.81456, 0, true)
+    endPoint: RVector(-4.37544, -4.81738, 0, true)
+    exporting: RLine(RShape(address: "0x38b6730"), startPoint: RVector(-3.37261, -3.81456, 0, true), endPoint: RVector(-4.37544, -4.81738, 0, true))
+writeLine: N1980 G00 Z2
+writeLine: N1990 X-3.373 Y-3.815
+writeLine: N2000 G01 Z-2
+writeLine: N2010 X-4.375 Y-4.817
+exportContourEntity: RLineEntity(0x3f60490)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.37544, -4.81738, 0, true)
+    endPoint: RVector(-4.81738, -4.37544, 0, true)
+    exporting: RLine(RShape(address: "0x3f60500"), startPoint: RVector(-4.37544, -4.81738, 0, true), endPoint: RVector(-4.81738, -4.37544, 0, true))
+writeLine: N2020 X-4.817 Y-4.375
+exportContourEntity: RPolylineEntity(0x3a2abd0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x3a2ac90)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-4.81738, -4.37544, 0, true)
+    endPoint: RVector(-3.69115, -3.24921, 0, true)
+    exporting: RLine(RShape(address: "0x3a2ad00"), startPoint: RVector(-4.81738, -4.37544, 0, true), endPoint: RVector(-3.69115, -3.24921, 0, true))
+writeLine: N2030 X-3.691 Y-3.249
+  path with one entity found
+exportContourEntity: RCircleEntity(0x3a2b0a0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-3.75, -6.27868, 0, true)
+    endPoint: RVector(-3.5, -6.27868, 0, true)
+    exporting: RCircle(RShape(address: "0x3a2b110"), center: RVector(-3.625, -6.27868, 0, true), radius: 0.125)
+writeLine: N2040 G00 Z2
+writeLine: N2050 X-3.5 Y-6.279
+writeLine: N2060 G01 Z-2
+writeLine: N2070 G03 X-3.5 Y-6.279 I-0.125 J0
+  path with one entity found
+exportContourEntity: RPolylineEntity(0x3b977c0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x3b97940)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-1.7933, -5.96618, 0, true)
+    endPoint: RVector(1.79346, -5.96618, 0, true)
+    exporting: RLine(RShape(address: "0x3b979b0"), startPoint: RVector(-1.7933, -5.96618, 0, true), endPoint: RVector(1.79346, -5.96618, 0, true))
+writeLine: N2080 G00 Z2
+writeLine: N2090 X-1.793 Y-5.966
+writeLine: N2100 G01 Z-2
+writeLine: N2110 X1.793
+  path with one entity found
+exportContourEntity: RCircleEntity(0x46ecea0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-6.40368, 3.625, 0, true)
+    endPoint: RVector(-6.15368, 3.625, 0, true)
+    exporting: RCircle(RShape(address: "0x46ecf10"), center: RVector(-6.27868, 3.625, 0, true), radius: 0.125)
+writeLine: N2120 G00 Z2
+writeLine: N2130 X-6.154 Y3.625
+writeLine: N2140 G01 Z-2
+writeLine: N2150 G03 X-6.154 Y3.625 I-0.125 J0
+  path with one entity found
+exportContourEntity: RPolylineEntity(0x46ed3b0)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+exporting polyline, text or hatch
+exportContourEntity: RLineEntity(0x46ed570)
+  rampOnPoint: undefined
+  rampOffPoint: undefined
+  line, arc or circle
+    startPoint: RVector(-5.87783, 5.43588, 0, true)
+    endPoint: RVector(-5.43588, 5.87783, 0, true)
+    exporting: RLine(RShape(address: "0x46ed5e0"), startPoint: RVector(-5.87783, 5.43588, 0, true), endPoint: RVector(-5.43588, 5.87783, 0, true))
+writeLine: N2160 G00 Z2
+writeLine: N2170 X-5.878 Y5.436
+writeLine: N2180 G01 Z-2
+writeLine: N2190 X-5.436 Y5.878
+Finished processing paths.
+writeLine: N2200 G00 Z2
+writeLine: N2210 Z100
+writeLine: N2220 M30
+Export finished
