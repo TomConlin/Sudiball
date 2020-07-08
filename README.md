@@ -126,13 +126,18 @@ Joining the tips of a sudiball together can be tricky if joinery is not also you
 but by cutting interlocking fingers into the ends of the runners you get a
 simple solid connection called a [fingerjoint](https://en.wikipedia.org/wiki/Finger_joint)  
 ![fingerjoint](Gallery/sudiball_fingerjoint.png)  
-(which is especially trivial if you are using a laser cutter)
+(which is especially trivial if you are using  CNC with negligible kerf)
 
 -------------------------------------------------------------------------------
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
-If you do build something along these lines please do get in touch,
+If you have build a SudiBall, please do get in touch,
 
-I am setting up a rouges gallery and would be happy to show or point your work.
+I have set up a [Rouges Gallery](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/RoguesGallery/index.html) and would be happy to show or point your work.
+
+The annotated gallery is currently set up to accept jpeg images  
+along with an optional separate simple text (.txt) file per image.  
+(same filenames, diferent extensions)
+
 
 Email sudiball360@gmail.com for more info.
