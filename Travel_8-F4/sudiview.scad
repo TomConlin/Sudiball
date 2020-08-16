@@ -1,7 +1,7 @@
 // SudiView.scad
 
 echo ("Change design and rendering parameters in 'sudiconfig.scad'");
-include <sudiconfig.scad>;
+include <sudiconfig.scad>
 
 // visually mark the intersection center for the planes for reference
 //
@@ -17,20 +17,24 @@ difference() {	// remove the light path and the hole pattern
 
 		// the parts of the planes to keep	
 		for(rot = [0:delta:360]){
-			sheet([ball_dia,thickness,ball_dia],[relative_tilt,0,rot],centerofrotation);
+			sheet(
+                [ball_dia,thickness,ball_dia],
+                [relative_tilt,0,rot],
+                centerofrotation);
 		}
 	}
 
-	union(){ //of the voids within the sheet to remove
+	union(){ 
+        // Of the voids within the sheet to remove
 		// the light path to be removed from inside the ball, 
 		// artisticly defined in sudiconfig 
 		lightpath(); // defined in sudiconfig.scad
     	// optional snip off the tips 
-	tiptrim();
-	// the hole pattern in each sheet
+        tiptrim();
+        // the hole pattern in each sheet
 		for(rot=[0:delta:359]){
-		 	 about([relative_tilt,0,rot],centerofrotation)
-		  	  holepattern(
+            about([relative_tilt,0,rot],centerofrotation)
+            holepattern(
                 hp_patdia,
                 hp_holedia,
                 hp_holecount,

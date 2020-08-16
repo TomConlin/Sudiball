@@ -36,7 +36,7 @@ difference() {
 		}
 		// the other panels alternate as inner & outter voids
         // slot depth should aim to to be half the available width
-        slot_depth =2*thickness;
+        slot_depth = 2*thickness;
 		// intersect_for(rot=[delta:delta:359.9]){
 		for(rot=[delta:delta:359.9]){
 			if((rot/delta)%2){

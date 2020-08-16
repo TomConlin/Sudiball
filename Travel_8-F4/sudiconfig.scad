@@ -3,36 +3,37 @@
 // and the 2D dfx generator script
 // KNOWN TO WORK WITH OpenSCAD version 2014.03
 // (and seen not working in unstable snapshots)
+// updated to work in OpenSCAD 2019.05
 
 
 // bring in the basic helper functions
-include <sudilib.scad>;
+use <sudilib.scad>;
 
 // magic numbers begin wth '$'
 // smaller magic numbers result in SLOWER but smoother curves
 // values smaller than .1 are ignored
 // make them larger when viewing and smaller when generating if necessary
 
-$fa =	5;		   // fragment angle (what looks smooth enough)
-$fs =	.5;		// fragment size
+$fa =	2;		    // fragment angle (what looks smooth enough)
+$fs =	.25;		// fragment size
 
 // mirror amd optical tube assembley (OTA) parameters
-ota_id = 8;			// what diameter mirror
+ota_id = 8.5;		// what diameter mirror
 F_ratio= 4.0;		// focal ratio (for approximate appearance)
 
 // Sudiball mount design parameters
-planes	 =  3;	//  2,[3],4...
-tilt	 = 45;	// +/- angles in degrees for the plane
+planes	 =  3;	    //  2,[3],4...
+tilt	 = 45;	    // +/- angles in degrees for the plane
 
 ball_dia = 16;		// what diameter ball to use
-thickness = 0.8;	// sheet material thickness
+thickness = 0.625;	// sheet material thickness
 
 // hole pattern parameters
 // these are holes about the permiter for fixturing
 hp_patdia    =	14;	// pattern diameter (apx; ball_dia - 4 * thickness)
-hp_holedia   =	.375;	// hole diameter
+hp_holedia   =	.25;	// hole diameter
 hp_holedepth =	thickness; // hole depth (centered, will add epsilon > 0)
-hp_holecount =	12;		// how many holes
+hp_holecount =	12;		// how many holes (in a full circle)
 
 // derived variables
 intersect =	ball_dia / 2;
@@ -42,8 +43,12 @@ ball_r =	ball_dia / 2;
 delta  =	360 / planes;
 centerofrotation = [0,0,intersect];
 
-//
+//  relative tilt (to horizontal/vertical)
 relative_tilt =  sin(tilt) * sin(delta) * 180 / PI;
+
+// i.e. for three planes tilted 45 degrees  
+// sin(45) × sin(120) × 180 ÷ 3.1415926535  == 35.0864 degrees
+// complement is: 54.9136 degrees
 
 
 //////////////////////////////////////////////////////////////////////////////
@@ -51,10 +56,10 @@ relative_tilt =  sin(tilt) * sin(delta) * 180 / PI;
 
 // define the light path clearence to be removed from inside the ball,
 module lightpath(){
-	// the light path won't begin lower in the ball than
-	// the dia of the mirror will fit within
+  // the light path won't begin lower in the ball than
+  // the dia of the mirror will fit within
 
- // min height plus whatever is needed to look right or maintain structure
+  // min height plus whatever is needed to look right or maintain structure
 	translate([0, 0, ball_r-sqrt(ball_r*ball_r - ota_ir*ota_ir) +3*thickness])
 		cylinder(
 			// r1 needs to clear the mirror @ contact
@@ -75,6 +80,5 @@ module tiptrim(){
 			r2 = ball_r * 1.414,
 			h  = ball_r
 		);
-
 }
 
