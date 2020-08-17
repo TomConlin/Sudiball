@@ -13,22 +13,23 @@ include <sudiconfig.scad>
 
 
 difference(){ // lightpath
-rotate([0,0,45])
-difference(){  // fingers, slots, holepatern
-    disk(thickness, ball_r, [90,0,0], [0,0,0]);
-    
+    rotate([0,0,45])
+difference(){  
+    // From this disk; 
+    cylinder(h=thickness, r=ball_r, center = true);
+    // remove fingers, slots, holepaternn ...
     union(){
-     about( [90,0,45], [0,0,0])
+     rotate([90,0,45])
         holepattern(
             hp_patdia,
             hp_holedia,
             hp_holecount,
             hp_holedepth );
-    sheet( // the missing quarter 
-        [ball_dia, ball_dia, thickness*2],
-        [0, 0, 0], 
-        [ball_r+thickness/2, ball_r+thickness/2, 0]
-     );
+    // missing top quadrant  
+    translate([ball_r+thickness/2, ball_r+thickness/2, 0])   
+        cube(  
+            [ball_dia, ball_dia, thickness*2],
+            center=true); 
      // finger joints
      for(f = [(ball_r-thickness/2):(-thickness*2):(ball_r/2)]){
          translate([f,thickness/2,0]) 
@@ -42,22 +43,27 @@ difference(){  // fingers, slots, holepatern
      }
      // slot outter
      translate([0,-ball_r+thickness/2,0])
-        sheet([thickness, thickness*3, thickness*2]);
+        cube(
+            [thickness, thickness*3, thickness*2],
+            center=true);
      // slot inner
      translate([-(ball_r-thickness*4.0),0,0])
-        sheet([thickness*3, thickness, thickness*2]);
+        cube(
+            [thickness*3, thickness, thickness*2],
+            center=true);
     }
 } 
 
-
+/*  
+    The light path should be moved inside the union above
+    but need to get the order of rotations right first
+*/
      // light path   
      rotate([-(90-relative_tilt),0,0])
         translate([0, 0, -ball_r/2])
-
 		cylinder(
 			r1 = ota_ir,
 			r2 = ota_ir+thickness ,
 			h  = ball_dia
 		);
-  
 }

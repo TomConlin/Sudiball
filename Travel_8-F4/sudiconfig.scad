@@ -14,8 +14,8 @@ use <sudilib.scad>;
 // values smaller than .1 are ignored
 // make them larger when viewing and smaller when generating if necessary
 
-$fa =	2;		    // fragment angle (what looks smooth enough)
-$fs =	.25;		// fragment size
+$fa =	1;		    // fragment angle (what looks smooth enough)
+$fs =	.1;		    // fragment size
 
 // mirror amd optical tube assembley (OTA) parameters
 ota_id = 8.5;		// apx what diameter mirror
