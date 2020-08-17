@@ -15,7 +15,7 @@ tilt	 = 45;
 
 difference(){ // lightpath
 rotate([0,0,45])
-difference(){  // fingers
+difference(){  // fingers, slots, holepatern
     disk(thickness, ball_r, [90,0,0], [0,0,0]);
     
     union(){
@@ -41,9 +41,14 @@ difference(){  // fingers
                 [thickness*2, thickness, thickness*2],
                 center=true);
      }
-     
+     // slot outter
+     translate([0,-ball_r+thickness/2,0])
+        sheet([thickness, thickness*3, thickness*2]);
+     // slot inner
+     translate([-(ball_r-thickness*4.0),0,0])
+        sheet([thickness*3, thickness, thickness*2]);
     }
-}
+} 
 
 
      // light path   
@@ -52,7 +57,7 @@ difference(){  // fingers
 
 		cylinder(
 			r1 = ota_ir,
-			r2 = ota_ir ,
+			r2 = ota_ir+thickness ,
 			h  = ball_dia
 		);
   
