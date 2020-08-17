@@ -2,7 +2,7 @@
 // design parameters to be shared between 3d model generator script
 // and the 2D dfx generator script
 // KNOWN TO WORK WITH OpenSCAD version 2014.03
-// (and seen not working in unstable snapshots)
+// (and seen not working in unstable snapshots...)
 // updated to work in OpenSCAD 2019.05
 
 
@@ -18,7 +18,7 @@ $fa =	2;		    // fragment angle (what looks smooth enough)
 $fs =	.25;		// fragment size
 
 // mirror amd optical tube assembley (OTA) parameters
-ota_id = 8.5;		// what diameter mirror
+ota_id = 8.5;		// apx what diameter mirror
 F_ratio= 4.0;		// focal ratio (for approximate appearance)
 
 // Sudiball mount design parameters
