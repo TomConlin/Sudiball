@@ -4,6 +4,15 @@ Single  Sudiball section built in the flat(-ish)
 
 */
 include <sudiconfig.scad>
+/* 
+    (hopefully) overide core Sudiball design parameters
+    values defined in sudiconfig.scad
+    as they are more flexible than is useful here.
+*/
+
+planes	 =  3;
+tilt	 = 45;
+
 difference(){ // lightpath
 rotate([0,0,45])
 difference(){  // fingers
