@@ -1,17 +1,16 @@
-
 /*
 Single  Sudiball section built in the flat(-ish)
 
+ Basic parameters  diameter, thickness, etc.
+ are defined in `sudiconfig.scad`
+
+ It is not expected that this single sheet generator
+ will work well with exotic species of Sudiball
+ as it is narrowly focuced on 3-planes @ 45-degrees
+ intersecting at the geometric center.
 */
 include <sudiconfig.scad>
-/* 
-    (hopefully) overide core Sudiball design parameters
-    values defined in sudiconfig.scad
-    as they are more flexible than is useful here.
-*/
 
-planes	 =  3;
-tilt	 = 45;
 
 difference(){ // lightpath
 rotate([0,0,45])
