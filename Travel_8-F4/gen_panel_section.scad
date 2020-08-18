@@ -24,7 +24,7 @@ difference(){
             hp_patdia,
             hp_holedia,
             hp_holecount,
-            hp_holedepth );
+            hp_holedepth +.002);
     // missing top quadrant  
     translate([ball_r+thickness/2, ball_r+thickness/2, 0])   
         cube(  
