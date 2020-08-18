@@ -13,8 +13,8 @@ include <sudilib.scad>;
 // values smaller than .1 are ignored
 // make them larger when viewing and smaller when generating if necessary
 
-$fa =	5;		   // fragment angle (what looks smooth enough)
-$fs =	.5;		// fragment size 
+$fa =	1;		   // fragment angle (what looks smooth enough)
+$fs =	.1;		// fragment size 
 
 // mirror amd optical tube assembley (OTA) parameters
 ota_id = 5.5;		// what diameter mirror
@@ -25,12 +25,12 @@ planes	 =  3;	//  2,[3],4...
 tilt	 = 45;	// +/- angles in degrees for the plane 
 
 ball_dia = 16;		// what diameter ball to use
-thickness = .5;	// sheet material thickness
+thickness = .625;	// sheet material thickness
 
 // hole pattern parameters 
 // these are holes about the permiter for fixturing
 hp_patdia    =	14;	// pattern diameter (apx; ball_dia - 4 * thickness)
-hp_holedia   =	.375;	// hole diameter
+hp_holedia   =	.25;	// hole diameter
 hp_holedepth =	thickness; // hole depth (centered, will add epsilon > 0)
 hp_holecount =	12;		// how many holes
 
