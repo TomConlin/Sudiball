@@ -5,7 +5,7 @@ include <sudiconfig.scad>
 
 // visually mark the intersection center for the planes for reference
 //
-color([1,0,0]) translate(centerofrotation) sphere(0.25,center=true);
+color([1,0,0]) translate(centerofrotation) sphere(0.25);
 
 // build the model
 difference() {	// remove the light path and the hole pattern
@@ -13,7 +13,7 @@ difference() {	// remove the light path and the hole pattern
 	intersection() {	// isolate the sudiball
 		// the outside shape of the ball
 		translate([0,0,ball_r])
-		 	sphere(ball_r,center=true);	
+			sphere(ball_r);
 
 		// the parts of the planes to keep	
 		for(rot = [0:delta:360]){
