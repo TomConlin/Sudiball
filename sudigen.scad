@@ -21,7 +21,7 @@ difference() {
 	intersection() {		// isolate the sudiball
 							// the outside shape of the ball
 		translate(centerofrotation)
-		 sphere(ball_r,center=true);
+		 sphere(ball_r);
 							// position the first panel
 		sheet([2*ball_r,thickness,2*ball_r],[relative_tilt,0,0],centerofrotation);
 	}
