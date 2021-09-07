@@ -33,7 +33,7 @@ difference() {
 	intersection() {	
 		union(){
 		translate([0,0,ball_r])
-		 sphere(ball_r,center=true);
+		 sphere(ball_r);
 			translate([0,0,ball_r])
 				 cylinder(r=ota_or,h=F_ratio*ota_id);
 		}	
