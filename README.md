@@ -1,7 +1,7 @@
-Sudiball   ![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/open_sb1t.png "Sudiball")
+![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/open_sb1t.png)
 ========
-
-## Skeletal gimbal mount  
+# Sudiball
+## Skeletal ball and socket  
 ### It's like a ball but less.   
 
 To play with the models yourself you will need to  
@@ -115,7 +115,7 @@ the the width of of the flat surface.
 It also allows covering the support surface with a (_replacable_)   
 sheet material i.e. metal or fancy plastics cut into a strip with a [Cone Calculator](https://duckduckgo.com/?q=cone+calculator&ia=web)
 
-With a minimal sized ring for a standard three plane SudiBall  
+With a slightly larger than minimal sized ring for a standard three plane SudiBall  
 an off-the-shelf [45-deg rouder bit](https://duckduckgo.com/?q=45+deg+router+bit+chamfer&iax=1&ia=images)
 swung in a [router compass jig](https://duckduckgo.com/?q=router+compass+jig&iar=images&iax=1&ia=images) will chamfer
 a nearly normal support surface.  
