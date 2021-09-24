@@ -1,4 +1,4 @@
-![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/open_sb1t.png)
+![Sudiball](https://ix.cs.uoregon.edu/~tomc/Hobbies/Astronomy/ATM/SudiBall/RoguesGallery/scad/open_sb1t.png)
 ========
 # Sudiball
 ## Skeletal ball and socket  
